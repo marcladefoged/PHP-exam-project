@@ -1,0 +1,14 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+
+
+RewriteRule ^$                            view_index.php [NC,L]
+RewriteRule ^login$                       view_login.php [NC,L]
+RewriteRule ^signup$                      view_signup.php [NC,L]
+RewriteRule ^about-us$                    view_about_us.php [NC,L]
+RewriteRule ^flights$                     view_flights.php [NC,L]
+
+RewriteRule ^app.css$                     css_app.css [NC,L]
+
+
+ErrorDocument 404 /view_404.php
