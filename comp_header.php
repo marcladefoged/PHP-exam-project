@@ -1,6 +1,9 @@
 
     <div>
-      <img src="logo.png" alt="momondo.png">
+
+      <a href="view_index.php">
+        <img src="logo.png" alt="momondo.png">
+      </a>
     </div>
     <div>
       <a href="trips">Trips</a>
