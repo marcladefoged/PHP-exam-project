@@ -22,7 +22,26 @@ header {
     align-items: center;
     padding: 0 1rem;
     height: 5rem;
+    text-decoration: none;
+    color: white;
 }
+
+#header_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#header_title {
+    margin-left: 2rem;
+}
+
+#header_menu a {
+    margin-right: 2rem;
+}
+
+/*FRONTPAGE STYLING*/
 
 main {
     display: flex;
@@ -30,9 +49,29 @@ main {
     width: 100%;
     height: 100vh;
     color: white;
-
 }
 
+#frontpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#frontpage_cta {
+    margin-top: 5rem;
+}
+
+#frontpage_search input {
+    margin-top: 5rem;
+    height: 3rem;
+    width: 20rem;
+    padding: 0 1rem;
+    outline: none;
+    border-radius: 1rem;
+    border: 0px;
+    background: rgb(225,217,232, 1);
+    color: black;
+}
 
 /*NAVIGATION STYLING*/
 
@@ -52,7 +91,7 @@ nav li {
 }
 
 
-button a{
+ a{
   color: white;
   text-decoration: none;
   display: flex;
@@ -60,7 +99,7 @@ button a{
   align-items: center;
 }
 
-nav ul li button {
+nav ul li a {
     display: flex;  
     align-items: center;
     justify-content: center;
@@ -83,11 +122,16 @@ nav .navicon {
     font-size: 1.5rem;
 }
 
-button span{
+a span{
     margin-right: auto;
   }
 
-nav ul li button:hover {
+nav ul li a:hover {
+    background: rgb(225,217,232);
+    color: black;
+}
+
+nav ul li a:active {
     background: rgb(225,217,232);
     color: black;
 }
