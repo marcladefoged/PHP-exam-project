@@ -25,6 +25,7 @@
     </div>
 
     <div id="header_menu">
+      <a href="signup">Sign up</a>
       <a href="login">Log ind</a>
       <a href="danish">Dansk</a>
     </div>
