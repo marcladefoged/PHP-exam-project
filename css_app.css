@@ -12,6 +12,19 @@ body {
     background: rgb(33,3,58);
 }
 
+main {
+  /* display: flex; */
+  /* justify-content: center; */
+  width: 100%;
+  height: 100vh;
+  color: white;
+}
+
+
+.logo {
+  width: 10rem;
+}
+
 input{
     height: 4rem;
     width: 20rem;
@@ -44,7 +57,7 @@ header {
 }
 
 #header_title {
-    margin-left: 2rem;
+    margin-left: 3rem;
 }
 
 #header_menu a {
@@ -52,14 +65,6 @@ header {
 }
 
 /*FRONTPAGE STYLING*/
-
-main {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 100vh;
-    color: white;
-}
 
 #frontpage {
     display: flex;
@@ -93,6 +98,7 @@ nav {
 
 nav li {
     position: absolute;
+    margin-top: 4rem;
     left: 10px;
     height: 100vh;
     width: 12vw;
@@ -113,7 +119,7 @@ nav ul li a {
     display: flex;  
     align-items: center;
     justify-content: center;
-    background: rgb(33,3,58, 1);
+    /* background: rgb(33,3,58); */
     border: none;
     border-radius: 10px;
     color: white;
@@ -219,3 +225,133 @@ form {
     border-radius: 0.2rem;
   }
 
+    /*SIGNUP STYLING */
+
+    .signup_popup, .login_popup {
+      background: rgba(0, 0, 0, 0.6);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      display: none;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .signup_popup_content, .login_popup_content {
+      height: 600px;
+      width: 750px;
+      background: #fff;
+      padding: 20px;
+      border-radius: 20px;
+      position: relative;
+    }
+
+    .login_popup_content {
+      height: 450px;
+      width: 650px;
+    }
+
+    .signup_popup_content input, .login_popup_content input {
+      margin: 20px auto;
+      display: block;
+      width: 50%;
+      padding: 8px;
+      border: 1px solid gray;
+    }
+
+    .signup_button, .login_button {
+      Background: rgb(33,3,58);
+      width: 10rem;
+      padding: 10px 15px;
+      color: #fff;
+      font-weight: bolder;
+      text-transform: uppercase;
+      font-size: 18px;
+      border-radius: 5px;
+      box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+      margin-top: 25px;
+      text-decoration: none;
+      transition: 0.4s;
+      position: absolute;
+      left: 40%;
+    }
+
+    .signup_close, .login_close {
+      position: absolute;
+      top: -15px;
+      right: -15px;
+      background: #fff;
+      height: 20px;
+      width: 20px;
+      border-radius: 50%;
+      box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+      cursor: pointer;
+    }
+
+    #explore_title, #explore_cta {
+      display: flex;
+      justify-content: center;
+    }
+
+    #explore_imageupload {
+      margin-top: 5rem;
+      font-size: 2rem;  
+  }
+
+    #explore_cta {
+      margin-top: 10rem;
+    }
+
+    #explore_imageupload button {
+      /* Background: rgb(33,3,58, 0.2); */
+      background: white;
+      /* width: 10rem; */
+      padding: 10px 15px;
+      color: black;
+      font-weight: bolder;
+      text-transform: uppercase;
+      font-size: 18px;
+      border-radius: 5px;
+      box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+      /* margin-top: 10px; */
+      text-decoration: none;
+      transition: 0.4s;
+      position: absolute;
+      left: 65%;
+    }
+ 
+    ::-webkit-file-upload-button {
+      display: none;
+   }
+
+   #upload_gallery {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   div.image_upload_gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 180px;
+  }
+  
+  div.image_upload_gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.image_upload_gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+
+    

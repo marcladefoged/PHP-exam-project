@@ -85,3 +85,34 @@ function show_from_results(){
 
   document.querySelector("#to-results").innerHTML = all_cities;
   }
+
+  // SIGNUP WINDOW
+
+  function show_signup_popup() {
+    document.querySelector(".signup_popup").style.display = "flex";
+  }
+
+  function hide_signup_popup() {
+    document.querySelector(".signup_popup").style.display = "none";
+  }
+  
+  // LOGIN WINDOW
+
+  function show_login_popup() {
+    document.querySelector(".login_popup").style.display = "flex";
+  }
+
+  function hide_login_popup() {
+    document.querySelector(".login_popup").style.display = "none";
+  }
+
+  // EXPLORE IMAGE UPLOAD
+
+  function upload_image() {
+   fetch( 'api-upload-image.php', {
+    method : "POST",
+    body : new FormData( document.getElementById('frmImage') )
+   })
+  }
+
+

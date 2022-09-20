@@ -3,13 +3,13 @@
 <ul>
     <li>
  
-    <a href="view_login.php" <?= $title == 'login' ? 'class="active"' : '' ?>>
+    <!-- <a href="view_login.php" onclick="show_login_popup() <?= $title == 'login' ? 'class="active"' : '' ?>>
     <ion-icon class="navicon" name="person-circle-outline"></ion-icon>
     <span>
     Log ind
     </span>
     </a>         
-    
+     -->
     <a href="view_flights.php" <?= $title == 'flights' ? 'class="active"' : '' ?>>
      <ion-icon class="navicon" name="airplane-outline"></ion-icon>
      <span>
