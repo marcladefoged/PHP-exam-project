@@ -9,7 +9,7 @@ require_once __DIR__.'/comp_navbar.php';
 
 <main>
 
-<div id="explore_title">
+<div id="page_title">
     <h2>Hvordan udforsker du når du rejser?</h2>
 </div>
 
@@ -31,17 +31,17 @@ require_once __DIR__.'/comp_navbar.php';
 <div id="upload_gallery">
 
 <div class="image_upload_gallery">
-    <img src="632a31ce36259" alt="Copenhagen" width="600" height="400"> 
+    <img src="632af063c9a0d" alt="Copenhagen" width="600" height="400"> 
   <div class="desc">Her besøger jeg Nyhavn i København!</div>
 </div>
 
 <div class="image_upload_gallery">
-    <img src="632a31ce36259" alt="Copenhagen" width="600" height="400"> 
+    <img src="632af063c9a0d" alt="Copenhagen" width="600" height="400"> 
   <div class="desc">Her besøger jeg Nyhavn i København!</div>
 </div>
 
 <div class="image_upload_gallery">
-    <img src="632a31ce36259" alt="Copenhagen" width="600" height="400"> 
+    <img src="632af063c9a0d" alt="Copenhagen" width="600" height="400"> 
   <div class="desc">Her besøger jeg Nyhavn i København!</div>
 </div>
 

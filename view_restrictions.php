@@ -9,7 +9,10 @@ require_once __DIR__.'/comp_navbar.php';
 ?>
 
 <main>
-RESTRICTIONS
+    <div id="page_title">
+        <h2>RESTRICTIONS</h2>
+    </div>
+
 </main>
 
 <?php

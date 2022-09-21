@@ -33,15 +33,18 @@
 
 </header>
 
+
 <div class="signup_popup">
   <div class="signup_popup_content">
     <img src="close.png" alt="close" onclick="hide_signup_popup()" class="signup_close">
     <img src="logo.png" class="logo" alt="logo">
+    <form onsubmit="return false">
     <input type="text" placeholder="Email">
     <input type="text" placeholder="Username">
     <input type="password" placeholder="Password">
     <input type="password" placeholder="Confirm password">
-    <a href="#" class="signup_button">Sign up!</a>
+    <button class="signup_button">Sign up!</button>
+    </form>
   </div>
 </div>
 
@@ -49,9 +52,31 @@
   <div class="login_popup_content">
     <img src="close.png" alt="close" onclick="hide_login_popup()" class="login_close">
     <img src="logo.png" class="logo" alt="logo">
-    <input type="text" placeholder="Username">
-    <input type="password" placeholder="Password">
-    <a href="#" class="login_button">Log ind!</a>
+
+    <form id="login_form" onsubmit="validate(login_validation); return false">
+
+    <input type="text" name="email" data-validate="email" placeholder="Email">
+    <input type="text" name="user_password" data-validate="password" placeholder="Password">
+    <button class="login_button">Log ind!</button>
+    </form>
+
+
   </div>
 </div>
+
+<script>
+  async function login_validation() {
+    const loginform = document.querySelector("#login_form");
+    const conn = await fetch('api-login.php', {
+      method : "POST",
+      body : new FormData(loginform)
+    }); 
+    if( !conn.ok ) {
+      console.log('No connection');
+    };
+    if (conn.ok) {
+      console.log('connection successful')
+    }
+  }
+</script>
 

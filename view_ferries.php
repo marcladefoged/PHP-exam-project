@@ -9,7 +9,10 @@ require_once __DIR__.'/comp_navbar.php';
 ?>
 
 <main>
-FERRIES
+    <div id="page_title">
+        <h2>FERRIES</h2>
+    </div>
+
 </main>
 
 <?php

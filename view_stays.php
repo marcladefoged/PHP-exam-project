@@ -7,7 +7,12 @@ require_once __DIR__.'/comp_navbar.php';
 ?>
 
 <main>
-OVERNATNINGER
+    <div id="page_title">
+        <h2>
+            OVERNATNINGER
+        </h2>
+    </div>
+
 </main>
 
 <?php
