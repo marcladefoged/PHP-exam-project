@@ -1,15 +1,15 @@
 /*GLOBAL STYLING*/
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    width: 100%;
-    height: 100vh;
-    background: rgb(33,3,58);
+  width: 100%;
+  height: 100vh;
+  background: rgb(33, 3, 58);
 }
 
 main {
@@ -25,91 +25,91 @@ main {
   width: 10rem;
 }
 
-input{
-    height: 4rem;
-    width: 20rem;
-    padding: 0 1rem;
-    outline: none;
-    border-radius: 1rem;
-    border: 0px;
-    background: rgba(255, 255, 255, 1);
-  }
+input {
+  height: 4rem;
+  width: 20rem;
+  padding: 0 1rem;
+  outline: none;
+  border-radius: 1rem;
+  border: 0px;
+  background: rgba(255, 255, 255, 1);
+}
 
 /*HEADER STYLING*/
 
 header {
-    background: rgb(33,3,58, 1);
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 1rem;
-    height: 5rem;
-    text-decoration: none;
-    color: white;
+  background: rgb(33, 3, 58, 1);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  height: 5rem;
+  text-decoration: none;
+  color: white;
 }
 
 #header_menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 #header_title {
-    margin-left: 3rem;
+  margin-left: 3rem;
 }
 
 #header_menu a {
-    margin-right: 2rem;
+  margin-right: 2rem;
 }
 
 /*FRONTPAGE STYLING*/
 
 #frontpage {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #frontpage_cta {
-    margin-top: 5rem;
+  margin-top: 5rem;
 }
 
 #frontpage_search input {
-    margin-top: 5rem;
-    height: 3rem;
-    width: 20rem;
-    padding: 0 1rem;
-    outline: none;
-    border-radius: 1rem;
-    border: 0px;
-    background: rgb(225,217,232, 1);
-    color: black;
+  margin-top: 5rem;
+  height: 3rem;
+  width: 20rem;
+  padding: 0 1rem;
+  outline: none;
+  border-radius: 1rem;
+  border: 0px;
+  background: rgb(225, 217, 232, 1);
+  color: black;
 }
 
 /*NAVIGATION STYLING*/
 
 nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: sticky;
-    top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 10px;
 }
 
 nav li {
-    position: absolute;
-    margin-top: 4rem;
-    left: 10px;
-    height: 100vh;
-    width: 12vw;
-    list-style-type: none;
-    /* border: 1px solid rgb(87,41,129); */
+  position: absolute;
+  margin-top: 4rem;
+  left: 10px;
+  height: 100vh;
+  width: 12vw;
+  list-style-type: none;
+  /* border: 1px solid rgb(87,41,129); */
 }
 
 
- a{
+a {
   color: white;
   text-decoration: none;
   display: flex;
@@ -118,360 +118,412 @@ nav li {
 }
 
 nav ul li a {
-    display: flex;  
-    align-items: center;
-    justify-content: center;
-    /* background: rgb(33,3,58); */
-    border: none;
-    border-radius: 10px;
-    color: white;
-    padding: 2px 8px;
-    margin: 2px 0;
-    cursor: pointer;
-    width: 12rem;
-    height: 4rem;
-    text-decoration: none;
-    font-size: 1rem;
-    font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: rgb(33,3,58); */
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 2px 8px;
+  margin: 2px 0;
+  cursor: pointer;
+  width: 12rem;
+  height: 4rem;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 nav .navicon {
-    margin-right: auto;
-    font-size: 1.5rem;
+  margin-right: auto;
+  font-size: 1.5rem;
 }
 
-a span{
-    margin-right: auto;
-  }
+a span {
+  margin-right: auto;
+}
 
 nav ul li a:hover {
-    background: rgb(225,217,232);
-    color: black;
+  background: rgb(225, 217, 232);
+  color: black;
 }
 
 .active {
-    background: rgb(225,217,232);
-    color: black;
+  background: rgb(225, 217, 232);
+  color: black;
 }
 
 /*FOOTER STYLING*/
 footer {
-    width: 100%;
-    height: 40vh;
-    background: rgb(19,0,38);
-    color: white;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 5rem;
+  width: 100%;
+  height: 40vh;
+  background: rgb(19, 0, 38);
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 5rem;
 }
 
 /*FLIGHT FORM STYLING*/
-    #flights-search form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5rem;
-  }
-  
-  div#flights-search{
-    width: 100vw;
-    height: 20rem;
-    padding: 2rem 1rem;
-    background: rgba(33, 3, 58, 0.5);
-  }
-  
-  /*FROM CONTAINER STYLING */
-  div#flights-search div#from-container div#from-results{
-    position: absolute;
-    display: none;
-    width: 25rem;
-    height: 40rem;
-    background: white;
-    border-radius: 1rem;
+#flights-search form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
 
-  }
-  div.from-city{
-    display: flex;
-    align-items: center;
-    /* justify-content: space-between; */
-    padding: 1rem;
-    color: black;
-  }
-  div.from-city img{
-    width: 8rem;
-    height: 8rem;
-    border-radius: 0.2rem;
-  }
-  
-  /*TO CONTAINER STYLING */
-  
-  div#flights-search div#to-container div#to-results{
-    position: absolute;
-    display: none;
-    width: 25rem;
-    height: 40rem;
-    background: white;
-    border-radius: 1rem;
-  }
-  div.to-city{
-    display: flex;
-    align-items: center;
-    /* justify-content: space-between; */
-    padding: 1rem;
-    color: black;
-    
-  }
-  div.to-city img{
-    width: 8rem;
-    height: 8rem;
-    border-radius: 0.2rem;
-  }
+div#flights-search {
+  width: 100vw;
+  height: 20rem;
+  padding: 2rem 1rem;
+  background: rgba(33, 3, 58, 0.5);
+}
 
-    /*SIGNUP STYLING */
+/*FROM CONTAINER STYLING */
+div#flights-search div#from-container div#from-results {
+  position: absolute;
+  display: none;
+  width: 25rem;
+  height: 40rem;
+  background: white;
+  border-radius: 1rem;
 
-    .signup_popup, .login_popup {
-      background: rgba(0, 0, 0, 0.6);
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      display: none;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-    }
+}
 
-    .signup_popup_content, .login_popup_content {
-      height: 600px;
-      width: 750px;
-      background: #fff;
-      padding: 20px;
-      border-radius: 20px;
-      position: relative;
-    }
+div.from-city {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  padding: 1rem;
+  color: black;
+}
 
-    .login_popup_content {
-      height: 450px;
-      width: 650px;
-    }
+div.from-city img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 0.2rem;
+}
 
-    .signup_popup_content input, .login_popup_content input {
-      margin: 20px auto;
-      display: block;
-      width: 50%;
-      padding: 8px;
-      border: 1px solid gray;
-    }
+/*TO CONTAINER STYLING */
 
-    .signup_button, .login_button {
-      Background: rgb(33,3,58);
-      width: 10rem;
-      padding: 10px 15px;
-      color: #fff;
-      font-weight: bolder;
-      text-transform: uppercase;
-      font-size: 18px;
-      border-radius: 5px;
-      box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
-      margin-top: 25px;
-      text-decoration: none;
-      transition: 0.4s;
-      position: absolute;
-      left: 40%;
-    }
+div#flights-search div#to-container div#to-results {
+  position: absolute;
+  display: none;
+  width: 25rem;
+  height: 40rem;
+  background: white;
+  border-radius: 1rem;
+}
 
-    .signup_close, .login_close {
-      position: absolute;
-      top: -15px;
-      right: -15px;
-      background: #fff;
-      height: 20px;
-      width: 20px;
-      border-radius: 50%;
-      box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
-      cursor: pointer;
-    }
+div.to-city {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  padding: 1rem;
+  color: black;
 
-    #page_title, #explore_cta {
-      display: flex;
-      justify-content: center;
-    }
+}
 
-    #frmImage {
-      display: flex;
-      justify-content: center;
-    }
+div.to-city img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 0.2rem;
+}
 
-    #explore_imageupload {
-      margin-top: 5rem;
-      font-size: 2rem;  
-  }
+/*SIGNUP/LOGIN STYLING */
 
-    #explore_cta {
-      margin-top: 10rem;
-    }
+.signup_popup,
+.login_popup {
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
-    #explore_imageupload button {
-      /* Background: rgb(33,3,58, 0.2); */
-      background: white;
-      /* width: 10rem; */
-      padding: 10px 15px;
-      color: black;
-      font-weight: bolder;
-      text-transform: uppercase;
-      font-size: 18px;
-      border-radius: 5px;
-      box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
-      /* margin-top: 10px; */
-      text-decoration: none;
-      transition: 0.4s;
-      position: absolute;
-      left: 65%;
-    }
- 
-    ::-webkit-file-upload-button {
-      display: none;
-   }
+.signup_popup_content,
+.login_popup_content {
+  height: 600px;
+  width: 750px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+}
 
-   #upload_gallery {
-    margin-top: 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   }
+.login_popup_content {
+  height: 450px;
+  width: 650px;
+}
 
-   div.image_upload_gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    width: 180px;
-  }
-  
-  div.image_upload_gallery:hover {
-    border: 1px solid #777;
-  }
-  
-  div.image_upload_gallery img {
-    width: 100%;
-    height: auto;
-  }
+.signup_popup_content input,
+.login_popup_content input {
+  margin: 20px auto;
+  display: block;
+  width: 50%;
+  padding: 8px;
+  border: 1px solid gray;
+}
 
-  div.desc {
-    padding: 15px;
-    text-align: center;
-  }
+.signup_button,
+.login_button {
+  Background: rgb(33, 3, 58);
+  width: 10rem;
+  padding: 10px 15px;
+  color: #fff;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 18px;
+  border-radius: 5px;
+  box-shadow: 6px 6px 29px -4px rgba(0, 0, 0, 0.75);
+  margin-top: 25px;
+  text-decoration: none;
+  transition: 0.4s;
+  position: absolute;
+  left: 40%;
+}
 
-  /*INDEX PAGE STYLING */
+#login_title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
 
-  #index_title {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 2rem;
-  }
+#login_title h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
 
-  /*CARS PAGE STYLING */
+#login_title p, #signup_title p {
+  margin-top: 2rem;
+}
 
-    #cars_title {
-      display: flex;
-      justify-content: center;
-      text-align: center;
-      text-transform: uppercase;
-    }
+#login_button,
+#signup_button {
+  display: flex;
+  justify-content: center;
+}
 
-    /* #cars_section {
+#login_button a, #signup_button a {
+  background: #fff;
+  color: rgb(33, 3, 58);
+  width: 16rem;
+  height: 4rem;
+  padding: 10px 15px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 18px;
+  border-radius: 5px;
+  box-shadow: 6px 6px 29px -4px rgba(0, 0, 0, 0.75);
+  margin-top: 25px;
+  text-decoration: none;
+  transition: 0.4s;
+  margin-top: 3rem;
+}
+
+#signup_title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.signup_close,
+.login_close {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  background: #fff;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  box-shadow: 6px 6px 29px -4px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+}
+
+
+#page_title,
+#explore_cta {
+  display: flex;
+  justify-content: center;
+}
+
+#frmImage {
+  display: flex;
+  justify-content: center;
+}
+
+#explore_imageupload {
+  margin-top: 5rem;
+  font-size: 2rem;
+}
+
+#explore_cta {
+  margin-top: 10rem;
+}
+
+#explore_imageupload button {
+  /* Background: rgb(33,3,58, 0.2); */
+  background: white;
+  /* width: 10rem; */
+  padding: 10px 15px;
+  color: black;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 18px;
+  border-radius: 5px;
+  box-shadow: 6px 6px 29px -4px rgba(0, 0, 0, 0.75);
+  /* margin-top: 10px; */
+  text-decoration: none;
+  transition: 0.4s;
+  position: absolute;
+  left: 65%;
+}
+
+::-webkit-file-upload-button {
+  display: none;
+}
+
+#upload_gallery {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.image_upload_gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 180px;
+}
+
+div.image_upload_gallery:hover {
+  border: 1px solid #777;
+}
+
+div.image_upload_gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/*INDEX PAGE STYLING */
+
+#index_title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+/*CARS PAGE STYLING */
+
+#cars_title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* #cars_section {
       display: flex;
       justify-content: center;
       
     } */
 
-    #cars_reasons {
-      margin: 5rem auto;
-      gap: 1rem;
-      display: flex;
-      justify-content: center;
-      width: 60rem;
-    }
+#cars_reasons {
+  margin: 5rem auto;
+  gap: 1rem;
+  display: flex;
+  justify-content: center;
+  width: 60rem;
+}
 
-    .cars_reason {
-      border: 1px solid rgb(107,21,193);
-      border-radius: 10px;
-      width: 20rem;
-      height: auto;
-      padding: 26px;
-    }
+.cars_reason {
+  border: 1px solid rgb(107, 21, 193);
+  border-radius: 10px;
+  width: 20rem;
+  height: auto;
+  padding: 26px;
+}
 
-    #cars_splashimage {
-      display: flex;
-      justify-content: center;
-    }
+#cars_splashimage, #login_splashimage, #signup_splashigif {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
 
-    #cars_cta {
-      display: flex;
-      justify-content: center;
-      text-align: center;
-      margin-top: 5rem;
-      font-size: 1.5rem;
-      padding: 0 10rem;
-    }
+#cars_cta {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 1.5rem;
+  padding: 0 10rem;
+}
 
-    #cars_cta h3 {
-      text-transform: uppercase;
-      margin-bottom: 2rem;
-    }
+#cars_cta h3 {
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
 
-    #cars_cta p {
-      margin-bottom: 2rem;
-      font-size: 1.2rem;
-      width: 40rem;
-    }
+#cars_cta p {
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  width: 40rem;
+}
 
-     /*FERRIES PAGE STYLING */
+/*FERRIES PAGE STYLING */
 
-     #ferries_title {
-      display: flex;
-      justify-content: center;
-      text-align: center;
-      margin-bottom: 5rem;
-      text-transform: uppercase;
-    }
+#ferries_title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+}
 
-     #ferries_splashimage {
-      display: flex;
-      justify-content: center;
-    }
+#ferries_splashimage {
+  display: flex;
+  justify-content: center;
+}
 
-    #ferries_travel {
-      background: lightgray;
-      color: black;
-      border-radius: 20px;
-      padding: 20px;
-      display: flex;
-      justify-content: center;
-      text-align: center;
-      margin: 2rem auto;
-      width: 40rem;
-    }
-    
-    #ferries_travel h3 {
-      font-size: 2rem;
-      margin-bottom: 20px;
-    }
+#ferries_travel {
+  background: lightgray;
+  color: black;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 2rem auto;
+  width: 40rem;
+}
 
-    #ferries_travel p {
-      font-size: 1.2rem;
-      line-height: 30px;
-    }
+#ferries_travel h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
 
-    #ferries_button {
-      margin-top: 10px;
-      background: rgb(107,21,193);
-      border-radius: 10px;
-      color: white;
-      height: 40px;
-      width: 150px;
-      cursor: pointer;
-    }
+#ferries_travel p {
+  font-size: 1.2rem;
+  line-height: 30px;
+}
 
-
-
-    
-
+#ferries_button {
+  margin-top: 10px;
+  background: rgb(107, 21, 193);
+  border-radius: 10px;
+  color: white;
+  height: 40px;
+  width: 150px;
+  cursor: pointer;
+}
