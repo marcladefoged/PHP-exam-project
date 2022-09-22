@@ -22,6 +22,9 @@ if( $_POST['user_password'] != $user['user_password'] ) {
     _respond($error_message, 400); 
 };
 
-
+// Set the user name, email, etc... in the session
+seesion_start();
+$_SESSION['user_name'] = 'Marc'
+$_SESSION['user_email'] = 'a@a.com'
 
 echo json_encode($user);

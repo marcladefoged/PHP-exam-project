@@ -43,7 +43,7 @@ require_once __DIR__.'/comp_navbar.php';
                 <img src="close.png" alt="close" onclick="hide_login_popup()" class="login_close">
                 <img src="logo.png" class="logo" alt="logo">
 
-                <form id="login_form" onsubmit="validate(login_validation()); return false">
+                <form id="login_form" method="POST" onsubmit="validate(login_validation()); return false">
                 <input 
                 type="text" 
                 name="user_email" 
@@ -76,9 +76,8 @@ async function login_validation() {
     if (conn.ok) {
       console.log('login connection successful')
       window.location = 'admin.php';
-    }
   }
-
+}
 </script>
 
 <?php

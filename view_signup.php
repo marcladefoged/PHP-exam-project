@@ -22,14 +22,14 @@ require_once __DIR__.'/comp_navbar.php';
     </div>
 
     <div id="signup_splashigif">
-    <img src="/images/signup1.gif" height="600px" width="950px" alt="login1">
+    <img src="/images/signup1.gif" height="500px" width="750px" alt="login1">
     </div>
 
     <div class="signup_popup">
     <div class="signup_popup_content">
     <img src="close.png" alt="close" onclick="hide_signup_popup()" class="signup_close">
     <img src="logo.png" class="logo" alt="logo">
-    <form id="signup_form" onsubmit="validate(signup_validation()); return false">
+    <form id="signup_form" method="POST" onsubmit="validate(signup_validation); return false">
     <input 
     type="text" 
     name="user_email" 
@@ -65,6 +65,7 @@ require_once __DIR__.'/comp_navbar.php';
 <script>
 
 async function signup_validation() {
+  console.log('TEST1')
     const signupform = document.getElementById("signup_form");
     const conn = await fetch('api-signup.php', {
       method : "POST",
@@ -83,7 +84,7 @@ async function signup_validation() {
         'You have now signed up!',
         'success'
         )
-        window.location = 'view_index.php';
+        // window.location = 'view_index.php';
     // }
   }
 
