@@ -38,11 +38,29 @@
   <div class="signup_popup_content">
     <img src="close.png" alt="close" onclick="hide_signup_popup()" class="signup_close">
     <img src="logo.png" class="logo" alt="logo">
-    <form onsubmit="return false">
-    <input type="text" placeholder="Email">
-    <input type="text" placeholder="Username">
-    <input type="password" placeholder="Password">
-    <input type="password" placeholder="Confirm password">
+    <form id="signup_form" onsubmit="validate(signup_validation()); return false">
+    <input 
+    type="text" 
+    name="user_email" 
+    placeholder="Email"
+    data-validate="email"
+    >
+    <input
+     type="text" 
+     name="user_name" 
+     placeholder="Username"
+     data-validate="str"
+     >
+    <input
+     type="text"
+    name="user_password" 
+    placeholder="Password"
+    >
+    <input 
+    type="text" 
+    name="user_confirm_password" 
+    placeholder="Confirm password"
+    >
     <button class="signup_button">Sign up!</button>
     </form>
   </div>
@@ -53,10 +71,18 @@
     <img src="close.png" alt="close" onclick="hide_login_popup()" class="login_close">
     <img src="logo.png" class="logo" alt="logo">
 
-    <form id="login_form" onsubmit="validate(login_validation); return false">
-
-    <input type="text" name="email" data-validate="email" placeholder="Email">
-    <input type="text" name="user_password" data-validate="password" placeholder="Password">
+    <form id="login_form" onsubmit="validate(login_validation()); return false">
+    <input 
+    type="text" 
+    name="user_email" 
+    data-validate="email" 
+    placeholder="Email">
+    <input 
+    type="text" 
+    name="user_password" 
+    data-validate="password" 
+    placeholder="Password"
+    >
     <button class="login_button">Log ind!</button>
     </form>
 
@@ -66,17 +92,54 @@
 
 <script>
   async function login_validation() {
-    const loginform = document.querySelector("#login_form");
+    const loginform = document.getElementById("login_form");
     const conn = await fetch('api-login.php', {
       method : "POST",
       body : new FormData(loginform)
     }); 
     if( !conn.ok ) {
-      console.log('No connection');
+      console.log('No login connection');
     };
     if (conn.ok) {
-      console.log('connection successful')
+      console.log('login connection successful')
     }
   }
+
+  async function signup_validation() {
+    const signupform = document.getElementById("signup_form");
+    const conn = await fetch('api-signup.php', {
+      method : "POST",
+      body : new FormData(signupform)
+    }); 
+    if( !conn.ok ) {
+      console.log('Could not sign in');
+    };
+    if (conn.ok) {
+      console.log('signup successful!')
+      // Swal.fire(
+      //   'Good job '+data.message,
+      //   'You clicked the button!',
+      //   'success')
+    }
+  }
+
+  // async function signup_validation(){
+  //     const signupform = document.getElementById("signup_form");
+  //     console.log(the_form)
+  //     const conn = await fetch('api-signup.php', {
+  //       method : "POST",
+  //       body : new FormData(signupform)
+  //     })
+  //     if( ! conn.ok ){
+  //       console.log("uppssss....")
+  //       return
+  //     }
+  //     const data = await conn.json() // Convert text to JSON
+  //     // Success
+  //     console.log(data.message)
+
+  //     )
+  //   }
+
 </script>
 

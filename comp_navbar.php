@@ -10,7 +10,7 @@
     </span>
     </a>         
      -->
-    <a href="view_flights.php" <?= $title == 'flights' ? 'class="active"' : '' ?>>
+    <a href="view_index.php" <?= $title == 'flights' ? 'class="active"' : '' ?>>
      <ion-icon class="navicon" name="airplane-outline"></ion-icon>
      <span>
      Fly

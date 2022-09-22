@@ -16,7 +16,7 @@ main {
   /* display: flex;
   justify-content: center; */
   width: 100%;
-  height: 100vh;
+  height: 160vh;
   color: white;
 }
 
@@ -94,6 +94,8 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: sticky;
+    top: 10px;
 }
 
 nav li {
@@ -358,5 +360,118 @@ footer {
     text-align: center;
   }
 
+  /*INDEX PAGE STYLING */
+
+  #index_title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+  /*CARS PAGE STYLING */
+
+    #cars_title {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    /* #cars_section {
+      display: flex;
+      justify-content: center;
+      
+    } */
+
+    #cars_reasons {
+      margin: 5rem auto;
+      gap: 1rem;
+      display: flex;
+      justify-content: center;
+      width: 60rem;
+    }
+
+    .cars_reason {
+      border: 1px solid rgb(107,21,193);
+      border-radius: 10px;
+      width: 20rem;
+      height: auto;
+      padding: 26px;
+    }
+
+    #cars_splashimage {
+      display: flex;
+      justify-content: center;
+    }
+
+    #cars_cta {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      margin-top: 5rem;
+      font-size: 1.5rem;
+      padding: 0 10rem;
+    }
+
+    #cars_cta h3 {
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+    }
+
+    #cars_cta p {
+      margin-bottom: 2rem;
+      font-size: 1.2rem;
+      width: 40rem;
+    }
+
+     /*FERRIES PAGE STYLING */
+
+     #ferries_title {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      margin-bottom: 5rem;
+      text-transform: uppercase;
+    }
+
+     #ferries_splashimage {
+      display: flex;
+      justify-content: center;
+    }
+
+    #ferries_travel {
+      background: lightgray;
+      color: black;
+      border-radius: 20px;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      margin: 2rem auto;
+      width: 40rem;
+    }
+    
+    #ferries_travel h3 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    #ferries_travel p {
+      font-size: 1.2rem;
+      line-height: 30px;
+    }
+
+    #ferries_button {
+      margin-top: 10px;
+      background: rgb(107,21,193);
+      border-radius: 10px;
+      color: white;
+      height: 40px;
+      width: 150px;
+      cursor: pointer;
+    }
+
+
 
     
+

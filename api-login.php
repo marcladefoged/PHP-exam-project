@@ -8,11 +8,11 @@ _validate_password();
 $user = [
     'user_name' => 'Marc',
     'user_last_name' => 'Jensen',
-    'email' => 'a@a.com',
+    'user_email' => 'a@a.com',
     'user_password' => 'password'
 ];
 
-if( $_POST['email'] != $user['email'] ) {
+if( $_POST['user_email'] != $user['user_email'] ) {
     $error_message = 'No user with that email';
     _respond($error_message, 400); 
 };

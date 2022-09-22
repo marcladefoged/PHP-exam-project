@@ -9,10 +9,11 @@ RewriteRule ^cars$                        view_cars.php [NC,L]
 RewriteRule ^experiences$                 view_experiences.php [NC,L]
 RewriteRule ^explore$                     view_explore.php [NC,L]
 RewriteRule ^ferries$                     view_ferries.php [NC,L]
-RewriteRule ^flights$                     view_flights.php [NC,L]
+# RewriteRule ^flights$                     view_flights.php [NC,L]
 RewriteRule ^packagedeals$                view_packagedeals.php [NC,L]
 RewriteRule ^restrictions$                view_restrictions.php [NC,L]
 RewriteRule ^stays$                       view_stays.php [NC,L]
+RewriteRule ^admin$                       view_admin.php [NC,L]
 
 RewriteRule ^app.css$                     css_app.css [NC,L]
 
