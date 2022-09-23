@@ -527,3 +527,8 @@ div.desc {
   width: 150px;
   cursor: pointer;
 }
+
+#admin_title h1{
+ display: flex;
+ justify-content: center;
+}

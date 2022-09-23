@@ -65,7 +65,6 @@ require_once __DIR__.'/comp_navbar.php';
 <script>
 
 async function signup_validation() {
-  console.log('TEST1')
     const signupform = document.getElementById("signup_form");
     const conn = await fetch('api-signup.php', {
       method : "POST",

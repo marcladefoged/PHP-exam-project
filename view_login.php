@@ -43,7 +43,7 @@ require_once __DIR__.'/comp_navbar.php';
                 <img src="close.png" alt="close" onclick="hide_login_popup()" class="login_close">
                 <img src="logo.png" class="logo" alt="logo">
 
-                <form id="login_form" method="POST" onsubmit="validate(login_validation()); return false">
+                <form id="login_form" method="POST" onsubmit="validate(login_validation); return false">
                 <input 
                 type="text" 
                 name="user_email" 
@@ -65,6 +65,7 @@ require_once __DIR__.'/comp_navbar.php';
 <script>
 
 async function login_validation() {
+    console.log('TEST123')
     const loginform = document.getElementById("login_form");
     const conn = await fetch('api-login.php', {
       method : "POST",
