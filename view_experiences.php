@@ -23,7 +23,7 @@ require_once __DIR__.'/comp_navbar.php';
 
 <div id="explore_cta">
     <h3>
-        Her kan du uploade og dele dine billeder og minder fra tidligere rejser!
+        Vis os dine oplevelser ved at dele dine billeder og minder fra tidligere rejser her!
     </h3>
 </div>
 
