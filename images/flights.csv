@@ -1,0 +1,235 @@
+departure_city,departure_airport,departure_country,departure_date,departure_time,departure_landing_time,arrival_city,arrival_airport,arrival_country,return_date,return_time,return_landing_time,airline,airline_logo,flight_price,flight_seat_type
+Copenhagen,Copenhagen Airport,Denmark,19/10/2022,10:00,14:30,Aalborg,Aalborg Airport,Denmark,26/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,08/10/2022,15:35,20:05,Aalborg,Aalborg Airport,Denmark,15/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,02/10/2022,02:10,06:40,Aalborg,Aalborg Airport,Denmark,09/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,01/10/2022,10:00,14:30,Aberdeen,Aberdeen International Airport,Scotland,08/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,23/10/2022,15:35,20:05,Aberdeen,Aberdeen International Airport,Scotland,30/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,26/10/2022,02:10,06:40,Aberdeen,Aberdeen International Airport,Scotland,02/11/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,25/10/2022,10:00,14:30,Abu Dhabi ,Abu Dhabi International,United Arab Emirates,01/11/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,01/10/2022,15:35,20:05,Abu Dhabi ,Abu Dhabi International,United Arab Emirates,08/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,10/10/2022,02:10,06:40,Abu Dhabi ,Abu Dhabi International,United Arab Emirates,17/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,30/10/2022,10:00,14:30,Adelaide,Adelaide Airport,Australia,06/11/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,13/10/2022,15:35,20:05,Adelaide,Adelaide Airport,Australia,20/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,06/10/2022,02:10,06:40,Adelaide,Adelaide Airport,Australia,13/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,07/10/2022,10:00,14:30,Akita,Akita Airport,Japan,14/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,12/10/2022,15:35,20:05,Akita,Akita Airport,Japan,19/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,27/10/2022,02:10,06:40,Akita,Akita Airport,Japan,03/11/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,30/10/2022,10:00,14:30,Amsterdam,Amsterdam Airport Schiphol,Netherlands,06/11/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,25/10/2022,15:35,20:05,Amsterdam,Amsterdam Airport Schiphol,Netherlands,01/11/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,01/11/2022,02:10,06:40,Amsterdam,Amsterdam Airport Schiphol,Netherlands,08/11/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,15/10/2022,10:00,14:30,Antalya,Antalya Airport,Turkey,22/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,04/10/2022,15:35,20:05,Antalya,Antalya Airport,Turkey,11/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,29/10/2022,02:10,06:40,Antalya,Antalya Airport,Turkey,05/11/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,22/10/2022,10:00,14:30,Bangkok,Suvarnabhumi International Airport,Thailand,29/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,17/10/2022,15:35,20:05,Bangkok,Suvarnabhumi International Airport,Thailand,24/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,04/10/2022,02:10,06:40,Bangkok,Suvarnabhumi International Airport,Thailand,11/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,30/10/2022,10:00,14:30,Barcelona,Barcelona El Prat Airport,Spain,06/11/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,23/10/2022,15:35,20:05,Barcelona,Barcelona El Prat Airport,Spain,30/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,06/10/2022,02:10,06:40,Barcelona,Barcelona El Prat Airport,Spain,13/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,06/10/2022,10:00,14:30,Beijing,Beijing Nanyuan Airport,China,13/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,09/10/2022,15:35,20:05,Beijing,Beijing Nanyuan Airport,China,16/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,26/10/2022,02:10,06:40,Beijing,Beijing Nanyuan Airport,China,02/11/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,07/10/2022,10:00,14:30,Belfast,Belfast International Airport,Northern Ireland,14/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,07/10/2022,15:35,20:05,Belfast,Belfast International Airport,Northern Ireland,14/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,22/10/2022,02:10,06:40,Belfast,Belfast International Airport,Northern Ireland,29/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,10/10/2022,10:00,14:30,Cancun,Cancún International Airport,Mexico,17/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,16/10/2022,15:35,20:05,Cancun,Cancún International Airport,Mexico,23/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,17/10/2022,02:10,06:40,Cancun,Cancún International Airport,Mexico,24/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,09/10/2022,10:00,14:30,Cape Town,Cape Town International Airport,South Africa,16/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,17/10/2022,15:35,20:05,Cape Town,Cape Town International Airport,South Africa,24/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,27/10/2022,02:10,06:40,Cape Town,Cape Town International Airport,South Africa,03/11/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,10/10/2022,10:00,14:30,Casablanca,Anfa Airport,Morocco,17/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,17/10/2022,15:35,20:05,Casablanca,Anfa Airport,Morocco,24/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,27/10/2022,02:10,06:40,Casablanca,Anfa Airport,Morocco,03/11/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,10/10/2022,10:00,14:30,Chicago,Chicago O'Hare International Airport,USA,17/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,09/10/2022,15:35,20:05,Chicago,Chicago O'Hare International Airport,USA,16/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,28/10/2022,02:10,06:40,Chicago,Chicago O'Hare International Airport,USA,04/11/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,31/10/2022,10:00,14:30,Dakar,Blaise Diagne International Airport,Senegal,07/11/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,13/10/2022,15:35,20:05,Dakar,Blaise Diagne International Airport,Senegal,20/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,31/10/2022,02:10,06:40,Dakar,Blaise Diagne International Airport,Senegal,07/11/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,07/10/2022,10:00,14:30,Damascus ,Damascus International Airport,Syria,14/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,01/11/2022,15:35,20:05,Damascus ,Damascus International Airport,Syria,08/11/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,12/10/2022,02:10,06:40,Damascus ,Damascus International Airport,Syria,19/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,08/10/2022,10:00,14:30,David,Enrique Malek International Airport,Panama,15/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,11/10/2022,15:35,20:05,David,Enrique Malek International Airport,Panama,18/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,30/10/2022,02:10,06:40,David,Enrique Malek International Airport,Panama,06/11/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,13/10/2022,10:00,14:30,Delhi ,Indira Gandhi International Airport,India,20/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,18/10/2022,15:35,20:05,Delhi ,Indira Gandhi International Airport,India,25/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,27/10/2022,02:10,06:40,Delhi ,Indira Gandhi International Airport,India,03/11/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,23/10/2022,10:00,14:30,Dortmund,Dortmund Airport,Germany,30/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,12/10/2022,15:35,20:05,Dortmund,Dortmund Airport,Germany,19/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,02/10/2022,02:10,06:40,Dortmund,Dortmund Airport,Germany,09/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,06/10/2022,10:00,14:30,Eindhoven,Eindhoven Airport,Netherlands,13/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,09/10/2022,15:35,20:05,Eindhoven,Eindhoven Airport,Netherlands,16/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,26/10/2022,02:10,06:40,Eindhoven,Eindhoven Airport,Netherlands,02/11/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,24/10/2022,10:00,14:30,El Paso,El Paso International Airport,USA,31/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,23/10/2022,15:35,20:05,El Paso,El Paso International Airport,USA,30/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,06/10/2022,02:10,06:40,El Paso,El Paso International Airport,USA,13/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,20/10/2022,10:00,14:30,Fort Albany,Fort Albany Airport,Canada,27/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,05/10/2022,15:35,20:05,Fort Albany,Fort Albany Airport,Canada,12/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,02/10/2022,02:10,06:40,Fort Albany,Fort Albany Airport,Canada,09/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,21/10/2022,10:00,14:30,Freeport,Grand Bahama International Airport,Bahamas,28/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,25/10/2022,15:35,20:05,Freeport,Grand Bahama International Airport,Bahamas,01/11/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,26/10/2022,02:10,06:40,Freeport,Grand Bahama International Airport,Bahamas,02/11/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,24/10/2022,10:00,14:30,Fukushima,Fukushima Airport,Japan,31/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,08/10/2022,15:35,20:05,Fukushima,Fukushima Airport,Japan,15/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,26/10/2022,02:10,06:40,Fukushima,Fukushima Airport,Japan,02/11/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,24/10/2022,10:00,14:30,Geneva,Geneva-Cointrin International Airport,Switzerland,31/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,14/10/2022,15:35,20:05,Geneva,Geneva-Cointrin International Airport,Switzerland,21/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,02/10/2022,02:10,06:40,Geneva,Geneva-Cointrin International Airport,Switzerland,09/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,21/10/2022,10:00,14:30,Grand Cayman,Owen Roberts International,Cayman Islands,28/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,29/10/2022,15:35,20:05,Grand Cayman,Owen Roberts International,Cayman Islands,05/11/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,24/10/2022,02:10,06:40,Grand Cayman,Owen Roberts International,Cayman Islands,31/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,27/10/2022,10:00,14:30,Guam,Guam International Airport,Guam,03/11/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,17/10/2022,15:35,20:05,Guam,Guam International Airport,Guam,24/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,28/10/2022,02:10,06:40,Guam,Guam International Airport,Guam,04/11/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,29/10/2022,10:00,14:30,Guatemala City ,La Aurora International Airport,Guatemala,05/11/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,27/10/2022,15:35,20:05,Guatemala City ,La Aurora International Airport,Guatemala,03/11/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,20/10/2022,02:10,06:40,Guatemala City ,La Aurora International Airport,Guatemala,27/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,27/10/2022,10:00,14:30,Hamilton,Hamilton International Airport,New Zealand,03/11/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,29/10/2022,15:35,20:05,Hamilton,Hamilton International Airport,New Zealand,05/11/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,29/10/2022,02:10,06:40,Hamilton,Hamilton International Airport,New Zealand,05/11/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,02/10/2022,10:00,14:30,Havana ,José Martí International Airport,Cuba,09/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,01/11/2022,15:35,20:05,Havana ,José Martí International Airport,Cuba,08/11/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,03/10/2022,02:10,06:40,Havana ,José Martí International Airport,Cuba,10/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,19/10/2022,10:00,14:30,Helsinki,Helsinki-Vantaa Airport,Finland,26/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,21/10/2022,15:35,20:05,Helsinki,Helsinki-Vantaa Airport,Finland,28/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,20/10/2022,02:10,06:40,Helsinki,Helsinki-Vantaa Airport,Finland,27/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,26/10/2022,10:00,14:30,Honolulu,Daniel K. Inouye International Airport,"USA, Hawaii",02/11/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,03/10/2022,15:35,20:05,Honolulu,Daniel K. Inouye International Airport,"USA, Hawaii",10/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,29/10/2022,02:10,06:40,Honolulu,Daniel K. Inouye International Airport,"USA, Hawaii",05/11/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,06/10/2022,10:00,14:30,Ibiza,Ibiza Airport,Spain,13/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,20/10/2022,15:35,20:05,Ibiza,Ibiza Airport,Spain,27/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,25/10/2022,02:10,06:40,Ibiza,Ibiza Airport,Spain,01/11/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,27/10/2022,10:00,14:30,Istanbul,Atatürk International Airport,Turkey,03/11/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,28/10/2022,15:35,20:05,Istanbul,Atatürk International Airport,Turkey,04/11/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,01/11/2022,02:10,06:40,Istanbul,Atatürk International Airport,Turkey,08/11/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,18/10/2022,10:00,14:30,Jacquinot Bay,Jacquinot Bay Airport,Papua New Guinea,25/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,28/10/2022,15:35,20:05,Jacquinot Bay,Jacquinot Bay Airport,Papua New Guinea,04/11/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,09/10/2022,02:10,06:40,Jacquinot Bay,Jacquinot Bay Airport,Papua New Guinea,16/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,01/11/2022,10:00,14:30,Jumla,Jumla Airport,Nepal,08/11/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,01/10/2022,15:35,20:05,Jumla,Jumla Airport,Nepal,08/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,01/11/2022,02:10,06:40,Jumla,Jumla Airport,Nepal,08/11/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,06/10/2022,10:00,14:30,Kiev ,Boryspil International Airport,Ukraine,13/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,15/10/2022,15:35,20:05,Kiev ,Boryspil International Airport,Ukraine,22/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,22/10/2022,02:10,06:40,Kiev ,Boryspil International Airport,Ukraine,29/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,04/10/2022,10:00,14:30,Kuala Lumpur ,Kuala Lumpur International Airport,Malaysia,11/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,28/10/2022,15:35,20:05,Kuala Lumpur ,Kuala Lumpur International Airport,Malaysia,04/11/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,27/10/2022,02:10,06:40,Kuala Lumpur ,Kuala Lumpur International Airport,Malaysia,03/11/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,10/10/2022,10:00,14:30,Lagos,Murtala Muhammed International Airport,Nigeria,17/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,14/10/2022,15:35,20:05,Lagos,Murtala Muhammed International Airport,Nigeria,21/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,18/10/2022,02:10,06:40,Lagos,Murtala Muhammed International Airport,Nigeria,25/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,16/10/2022,10:00,14:30,Lima ,Jorge Chávez International Airport,Peru,23/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,17/10/2022,15:35,20:05,Lima ,Jorge Chávez International Airport,Peru,24/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,15/10/2022,02:10,06:40,Lima ,Jorge Chávez International Airport,Peru,22/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,01/10/2022,10:00,14:30,London,East London Airport,England,08/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,01/10/2022,15:35,20:05,London,East London Airport,England,08/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,30/10/2022,02:10,06:40,London,East London Airport,England,06/11/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,04/10/2022,10:00,14:30,Madrid ,Barajas International Airport,Spain,11/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,27/10/2022,15:35,20:05,Madrid ,Barajas International Airport,Spain,03/11/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,21/10/2022,02:10,06:40,Madrid ,Barajas International Airport,Spain,28/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,02/10/2022,10:00,14:30,Manchester,Manchester Airport,England,09/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,12/10/2022,15:35,20:05,Manchester,Manchester Airport,England,19/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,01/10/2022,02:10,06:40,Manchester,Manchester Airport,England,08/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,21/10/2022,10:00,14:30,Miami,Miami International Airport,USA,28/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,17/10/2022,15:35,20:05,Miami,Miami International Airport,USA,24/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,17/10/2022,02:10,06:40,Miami,Miami International Airport,USA,24/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,23/10/2022,10:00,14:30,Moscow,Domodedovo International Airport,Russia,30/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,30/10/2022,15:35,20:05,Moscow,Domodedovo International Airport,Russia,06/11/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,25/10/2022,02:10,06:40,Moscow,Domodedovo International Airport,Russia,01/11/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,27/10/2022,10:00,14:30,New York,John F Kennedy International Airport,USA,03/11/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,16/10/2022,15:35,20:05,New York,John F Kennedy International Airport,USA,23/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,06/10/2022,02:10,06:40,New York,John F Kennedy International Airport,USA,13/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,23/10/2022,10:00,14:30,Norrkoeping,Norrköping Airport,Sweden,30/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,04/10/2022,15:35,20:05,Norrkoeping,Norrköping Airport,Sweden,11/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,20/10/2022,02:10,06:40,Norrkoeping,Norrköping Airport,Sweden,27/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,06/10/2022,10:00,14:30,Odense,Hans Christian Andersen Airport,Denmark,13/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,15/10/2022,15:35,20:05,Odense,Hans Christian Andersen Airport,Denmark,22/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,14/10/2022,02:10,06:40,Odense,Hans Christian Andersen Airport,Denmark,21/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,23/10/2022,10:00,14:30,Oklahoma City,Will Rogers World Airport,USA,30/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,26/10/2022,15:35,20:05,Oklahoma City,Will Rogers World Airport,USA,02/11/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,03/10/2022,02:10,06:40,Oklahoma City,Will Rogers World Airport,USA,10/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,04/10/2022,10:00,14:30,Osaka,Kansai International Airport,Japan,11/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,17/10/2022,15:35,20:05,Osaka,Kansai International Airport,Japan,24/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,17/10/2022,02:10,06:40,Osaka,Kansai International Airport,Japan,24/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,11/10/2022,10:00,14:30,Oslo ,Gardermoen,Norway,18/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,03/10/2022,15:35,20:05,Oslo ,Gardermoen,Norway,10/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,04/10/2022,02:10,06:40,Oslo ,Gardermoen,Norway,11/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,19/10/2022,10:00,14:30,Palma de Mallorca,Palma de Mallorca Airport,Spain,26/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,22/10/2022,15:35,20:05,Palma de Mallorca,Palma de Mallorca Airport,Spain,29/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,01/11/2022,02:10,06:40,Palma de Mallorca,Palma de Mallorca Airport,Spain,08/11/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,25/10/2022,10:00,14:30,Panama City ,Tocumen International Airport,Panama,01/11/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,14/10/2022,15:35,20:05,Panama City ,Tocumen International Airport,Panama,21/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,29/10/2022,02:10,06:40,Panama City ,Tocumen International Airport,Panama,05/11/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,13/10/2022,10:00,14:30,Paris,Charles de Gaulle Airport,France,20/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,04/10/2022,15:35,20:05,Paris,Charles de Gaulle Airport,France,11/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,01/11/2022,02:10,06:40,Paris,Charles de Gaulle Airport,France,08/11/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,04/10/2022,10:00,14:30,Phuket,Phuket International Airport,Thailand,11/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,30/10/2022,15:35,20:05,Phuket,Phuket International Airport,Thailand,06/11/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,09/10/2022,02:10,06:40,Phuket,Phuket International Airport,Thailand,16/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,11/10/2022,10:00,14:30,Prague ,Václav Havel Airport Prague,Czech Republic,18/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,18/10/2022,15:35,20:05,Prague ,Václav Havel Airport Prague,Czech Republic,25/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,23/10/2022,02:10,06:40,Prague ,Václav Havel Airport Prague,Czech Republic,30/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,26/10/2022,10:00,14:30,Pyongyang ,Sunan International Airport,North Korea,02/11/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,25/10/2022,15:35,20:05,Pyongyang ,Sunan International Airport,North Korea,01/11/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,01/11/2022,02:10,06:40,Pyongyang ,Sunan International Airport,North Korea,08/11/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,05/10/2022,10:00,14:30,Quanzhou,Quanzhou Jinjiang Airport,"Fujian, China",12/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,10/10/2022,15:35,20:05,Quanzhou,Quanzhou Jinjiang Airport,"Fujian, China",17/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,11/10/2022,02:10,06:40,Quanzhou,Quanzhou Jinjiang Airport,"Fujian, China",18/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,01/11/2022,10:00,14:30,Queenstown,Queenstown Airport,New Zealand,08/11/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,31/10/2022,15:35,20:05,Queenstown,Queenstown Airport,New Zealand,07/11/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,04/10/2022,02:10,06:40,Queenstown,Queenstown Airport,New Zealand,11/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,28/10/2022,10:00,14:30,Reykjavik,Keflavík International Airport,Iceland,04/11/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,12/10/2022,15:35,20:05,Reykjavik,Keflavík International Airport,Iceland,19/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,27/10/2022,02:10,06:40,Reykjavik,Keflavík International Airport,Iceland,03/11/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,21/10/2022,10:00,14:30,Rio de Janeiro,Santos Dumont Airport,Brazil,28/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,31/10/2022,15:35,20:05,Rio de Janeiro,Santos Dumont Airport,Brazil,07/11/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,29/10/2022,02:10,06:40,Rio de Janeiro,Santos Dumont Airport,Brazil,05/11/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,02/10/2022,10:00,14:30,Rome,Ciampino Airport,Italy,09/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,24/10/2022,15:35,20:05,Rome,Ciampino Airport,Italy,31/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,24/10/2022,02:10,06:40,Rome,Ciampino Airport,Italy,31/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,05/10/2022,10:00,14:30,Salvador,Salvador International Airport,Brazil,12/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,01/10/2022,15:35,20:05,Salvador,Salvador International Airport,Brazil,08/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,31/10/2022,02:10,06:40,Salvador,Salvador International Airport,Brazil,07/11/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,19/10/2022,10:00,14:30,San Francisco,San Francisco International Airport,USA,26/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,19/10/2022,15:35,20:05,San Francisco,San Francisco International Airport,USA,26/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,25/10/2022,02:10,06:40,San Francisco,San Francisco International Airport,USA,01/11/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,15/10/2022,10:00,14:30,Shanghai,Hongqiao International Airport,China,22/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,30/10/2022,15:35,20:05,Shanghai,Hongqiao International Airport,China,06/11/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,05/10/2022,02:10,06:40,Shanghai,Hongqiao International Airport,China,12/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,22/10/2022,10:00,14:30,Singapore,Changi Airport Singapore,Singapore,29/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,28/10/2022,15:35,20:05,Singapore,Changi Airport Singapore,Singapore,04/11/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,19/10/2022,02:10,06:40,Singapore,Changi Airport Singapore,Singapore,26/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,15/10/2022,10:00,14:30,Tokyo,Narita International Airport,Japan,22/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,23/10/2022,15:35,20:05,Tokyo,Narita International Airport,Japan,30/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,03/10/2022,02:10,06:40,Tokyo,Narita International Airport,Japan,10/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,19/10/2022,10:00,14:30,Toronto,Toronto Pearson International Airport,Canada,26/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,19/10/2022,15:35,20:05,Toronto,Toronto Pearson International Airport,Canada,26/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,01/11/2022,02:10,06:40,Toronto,Toronto Pearson International Airport,Canada,08/11/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,15/10/2022,10:00,14:30,Ulaanbaatar ,Chinggis Khaan International Airport,Mongolia,22/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,02/10/2022,15:35,20:05,Ulaanbaatar ,Chinggis Khaan International Airport,Mongolia,09/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,15/10/2022,02:10,06:40,Ulaanbaatar ,Chinggis Khaan International Airport,Mongolia,22/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,11/10/2022,10:00,14:30,Union Island,Union Island Airport,Saint Vincent and the Grenadines,18/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,02/10/2022,15:35,20:05,Union Island,Union Island Airport,Saint Vincent and the Grenadines,09/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,07/10/2022,02:10,06:40,Union Island,Union Island Airport,Saint Vincent and the Grenadines,14/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,20/10/2022,10:00,14:30,Vancouver,Vancouver International Airport,Canada,27/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,15/10/2022,15:35,20:05,Vancouver,Vancouver International Airport,Canada,22/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,28/10/2022,02:10,06:40,Vancouver,Vancouver International Airport,Canada,04/11/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,18/10/2022,10:00,14:30,Venice,Venice Marco Polo Airport,Italy,25/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,31/10/2022,15:35,20:05,Venice,Venice Marco Polo Airport,Italy,07/11/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,29/10/2022,02:10,06:40,Venice,Venice Marco Polo Airport,Italy,05/11/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,04/10/2022,10:00,14:30,Washington D.C.,Washington Dulles International,USA,11/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,21/10/2022,15:35,20:05,Washington D.C.,Washington Dulles International,USA,28/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,17/10/2022,02:10,06:40,Washington D.C.,Washington Dulles International,USA,24/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,07/10/2022,10:00,14:30,Wuhan,Wuhan Tianhe International,China,14/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,05/10/2022,15:35,20:05,Wuhan,Wuhan Tianhe International,China,12/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,11/10/2022,02:10,06:40,Wuhan,Wuhan Tianhe International,China,18/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,21/10/2022,10:00,14:30,Xieng Khouang,Xieng Khouang Airport,Laos,28/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,29/10/2022,15:35,20:05,Xieng Khouang,Xieng Khouang Airport,Laos,05/11/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,02/10/2022,02:10,06:40,Xieng Khouang,Xieng Khouang Airport,Laos,09/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,27/10/2022,10:00,14:30,Yasawa,Yasawa Island Airport,Fiji,03/11/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,21/10/2022,15:35,20:05,Yasawa,Yasawa Island Airport,Fiji,28/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,30/10/2022,02:10,06:40,Yasawa,Yasawa Island Airport,Fiji,06/11/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class
+Copenhagen,Copenhagen Airport,Denmark,20/10/2022,10:00,14:30,Zurich,Zürich Airport,Switzerland,27/10/2022,00:15,14:15,SAS,sas.png,$349.00,Economy
+Copenhagen,Copenhagen Airport,Denmark,15/10/2022,15:35,20:05,Zurich,Zürich Airport,Switzerland,22/10/2022,11:25,17:20,Norwegian,norwegian.png,$599.00,Business
+Copenhagen,Copenhagen Airport,Denmark,18/10/2022,02:10,06:40,Zurich,Zürich Airport,Switzerland,25/10/2022,23:00,04:35,Lufthansa,lufthansa.png,"$1,149.00",First Class

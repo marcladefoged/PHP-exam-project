@@ -54,6 +54,8 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  font-size: 1.2rem;
+  font-weight: bolder;
 }
 
 #header_title {
@@ -309,7 +311,7 @@ div.to-city img {
   justify-content: center;
 }
 
-#login_button a, #signup_button a {
+#login_button a, #signup_button a, #logout_button a {
   background: #fff;
   color: rgb(33, 3, 58);
   width: 16rem;
@@ -528,7 +530,17 @@ div.desc {
   cursor: pointer;
 }
 
-#admin_title h1{
+#admin_title h1, p{
  display: flex;
  justify-content: center;
+}
+
+#logout_button {
+  display: flex;
+  justify-content: center;
+}
+
+#admin_flightlist {
+  display: flex;
+  justify-content: center;
 }
