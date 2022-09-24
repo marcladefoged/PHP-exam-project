@@ -61,7 +61,7 @@ try{
     <form id="admin_flightlist">
 
     
-      <div>
+      <div id="admin_flight">
         <img src="/images/<?= $flight['departure_city'] ?>.jpg" alt="departure image" width="100px" height="100px">
         <span>
           Departure city: <?= $flight['departure_city'] ?>
@@ -69,23 +69,24 @@ try{
         <span>
           Arrival city: <?= $flight['arrival_city'] ?>
         </span>
-          <input style="display:none" 
+          <!-- <input style="display:none" 
           name="flight_id" 
           value="<?= $flight['id'] ?>" 
           type="text"
-          >
+          > -->
 
-          <input style="display:none" 
+          <!-- <input style="display:none" 
           name="flight_id" 
           value="<?= $flight['id'] ?>" 
           type="text"
-          placeholder="Arriving to">
+          placeholder="Arriving to"> -->
           <img src="/images/<?= $flight['arrival_city'] ?>.jpg" alt="arrival image" width="100px" height="100px">
           <button type="button" onclick="delete_flight()">
             🗑️ Delete
           </button>
         </div>
-      </form>
+
+    </form>
 
     <?php
     }
