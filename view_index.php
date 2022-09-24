@@ -17,17 +17,22 @@ require_once __DIR__.'/comp_navbar.php';
 <div id="flights-search">
     <form>
       <div id="from-container">
-        <input name="from_city" id="from-input" type="text" placeholder="from"           
-          oninput="show_from_results()"
-          onblur="hide_from_results()"
+        <input name="from_flight" id="from-input" type="text" placeholder="Departing from"           
+          oninput="show_flights_from()"
+          onblur="hide_flights_from()"
         >
      
         <div id="from-results"></div>
       </div>
+
+      <div id="flights_rotate">
+          <img src="images/rotate.png" alt="rotate" height="50px" width="50px">
+        </div>
+
       <div id="to-container">
-        <input name="to_city" id="to-input" type="text" placeholder="to"           
-          oninput="show_to_results()"
-          onblur="hide_to_results()"
+        <input name="to_flight" id="to-input" type="text" placeholder="Arriving to"           
+          oninput="show_flights_to()"
+          onblur="hide_flights_to()"
         >
      
         <div id="to-results"></div>

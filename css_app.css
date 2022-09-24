@@ -172,7 +172,12 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 5rem;
+  gap: 2rem;
+  background: rgb(0,149,204);
+  margin: 0 auto;
+  width: 50rem;
+  height: 6rem;
+  border-radius: 10px;
 }
 
 div#flights-search {
@@ -190,13 +195,22 @@ div#flights-search div#from-container div#from-results {
   height: 40rem;
   background: white;
   border-radius: 1rem;
+  margin-top: 1.5rem;
+}
 
+#flights_rotate {
+  /* background: white;
+  width: 70px;
+  height: 70px; */
+  /* border-radius: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 div.from-city {
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
   padding: 1rem;
   color: black;
 }
@@ -216,6 +230,7 @@ div#flights-search div#to-container div#to-results {
   height: 40rem;
   background: white;
   border-radius: 1rem;
+  margin-top: 1.5rem;
 }
 
 div.to-city {
@@ -351,6 +366,8 @@ div.to-city img {
 
 #page_title,
 #explore_cta {
+  font-size: 1.5rem;
+  font-weight: bolder;
   display: flex;
   justify-content: center;
 }
@@ -450,6 +467,7 @@ div.desc {
 }
 
 .cars_reason {
+  background: rgb(0,149,204);
   border: 1px solid rgb(107, 21, 193);
   border-radius: 10px;
   width: 20rem;
@@ -499,8 +517,8 @@ div.desc {
 }
 
 #ferries_travel {
-  background: lightgray;
-  color: black;
+  background: rgb(0,149,204);
+  color: white;
   border-radius: 20px;
   padding: 20px;
   display: flex;
@@ -550,6 +568,7 @@ div.desc {
   justify-content: space-evenly; 
   align-items: center;
   border: 2px solid white;
+  border-radius: 10px;
   margin-top: 2rem;
   width: 50rem;
 }
@@ -562,3 +581,52 @@ div.desc {
   margin-bottom: 2.5rem;
 }
 
+/* EXPLORE STYLING */
+
+#explore_card_container {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 5rem;
+width: 20rem;
+margin: 15px 30%;
+
+}
+
+.explore_card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(0,149,204);
+  width: 21rem;
+  border-radius: 10px;
+  padding: 2rem;
+  color: black;
+  
+}
+
+.explore_card_image img {
+  display: flex;
+  justify-content: center;
+  width: 16rem;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px #000;
+
+}
+
+/* RESTRICTIONS PAGE STYLING */
+
+#restriction_map {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+#restriction_text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 40rem;
+  margin: 40px auto;
+  line-height: 30px;
+}

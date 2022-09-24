@@ -1,8 +1,8 @@
-function show_from_results(){
+function show_flights_from(){
     const the_input = document.querySelector("#from-input")
     if( the_input.value.length > 0 ){
       document.querySelector("#from-results").style.display = "block"
-      get_cities_from()
+      get_flights_from()
     }else{
       document.querySelector("#from-results").style.display = "none"
     }
@@ -10,15 +10,16 @@ function show_from_results(){
   }
    
   // ##############################
-  function hide_from_results(){
+  function hide_flights_from(){
     document.querySelector("#from-results").style.display = "none"
   }
   
   // ##############################
-  async function get_cities_from(){
-    let conn = await fetch('api-get-cities-from')
+  async function get_flights_from(){
+    
+    let conn = await fetch('api-get-flights-from.php')
     let data = await conn.json() // [{"city_name":"a"},{"city_name":"b"}]
-    let div_city = `<div class="from-city">
+    let div_city = `<div class="from-flight">
                       <img src="#img#">
                       <p>xxx</p>
                       <p>Airport: #airport#</p>
@@ -29,10 +30,10 @@ function show_from_results(){
     for( let i = 0; i < data.length; i++ ){
       let city = data[i] // {"city_name":"a"}
       let city_name = city.city_name
-      console.log(city_name)
+      console.log('TEST1')
       let copy_div_city = div_city
       copy_div_city = copy_div_city.replace("xxx", city.from_city_name)
-      // copy_div_city = copy_div_city.replace("#img#", city.city_image)
+      copy_div_city = copy_div_city.replace("#img#", city.city_image)
       copy_div_city = copy_div_city.replace("#airport#", city.from_city_airport_name)
       all_cities += copy_div_city
     }               
@@ -44,22 +45,22 @@ function show_from_results(){
   
   // ##############################
   
-  function show_to_results() {
+  function show_flights_to() {
     const the_input = document.querySelector('#to-input')
     if( the_input.value.length > 0 ){
       document.querySelector("#to-results").style.display = "block"
-      get_cities_to()
+      get_flights_to()
     }else{
       document.querySelector("#to-results").style.display = "none"
     }
   }
   
-  function hide_to_results() {
+  function hide_flights_to() {
     document.querySelector("#to-results").style.display = "none"
   }
   
   async function get_cities_to(){
-    let conn = await fetch('api-get-cities-to')
+    let conn = await fetch('api-get-flights-to.php')
     let data = await conn.json()
     let div_city = `<div class="to-city">
                     <img src="#img#">
