@@ -7,6 +7,20 @@ require_once __DIR__.'/comp_header.php';
 require_once __DIR__.'/comp_navbar.php';
 ?>
 
+<?php
+try{
+  $db = new PDO('sqlite:'.__DIR__.'/momondo.db');
+  $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+  $q = $db->prepare('SELECT * FROM table_flights');
+  $q->execute();
+  $flights = $q->fetchAll(PDO::FETCH_ASSOC);
+  // echo json_encode($flights);
+}catch(Exception $ex){
+  echo "Sorry went terribly wrong";
+  exit();
+}
+?>
+
 <main>
 
 <div id="index_title">
@@ -18,11 +32,15 @@ require_once __DIR__.'/comp_navbar.php';
     <form>
       <div id="from-container">
         <input name="from_flight" id="from-input" type="text" placeholder="Departing from"           
-          oninput="show_flights_from()"
-          onblur="hide_flights_from()"
+          oninput="show_cities_from()"
+          onblur="hide_cities_from()"
         >
      
-        <div id="from-results"></div>
+        <div id="from-results">
+          <span>
+          <?= $flight['from_city'] ?>
+          </span>
+        </div>
       </div>
 
       <div id="flights_rotate">
@@ -31,8 +49,8 @@ require_once __DIR__.'/comp_navbar.php';
 
       <div id="to-container">
         <input name="to_flight" id="to-input" type="text" placeholder="Arriving to"           
-          oninput="show_flights_to()"
-          onblur="hide_flights_to()"
+          oninput="show_cities_to()"
+          onblur="hide_cities_to()"
         >
      
         <div id="to-results"></div>

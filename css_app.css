@@ -196,6 +196,7 @@ div#flights-search div#from-container div#from-results {
   background: white;
   border-radius: 1rem;
   margin-top: 1.5rem;
+  overflow: scroll;
 }
 
 #flights_rotate {

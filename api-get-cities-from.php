@@ -1,14 +1,24 @@
 <?php
 
 try{
-  // $from_city = $_GET['from_city']
+  $from_city = $_GET['from_city'] ?? 0;
+  // Connect to the database
   $db = new PDO('sqlite:'.__DIR__.'/momondo.db');
+  $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
   $q = $db->prepare('SELECT * FROM table_cities WHERE city_name LIKE :from_city');
-  $q->bindValue(':from_city', '%'.$_GET['from_city'].'%');
+  $q->bindValue(':from_city', '%'.$from_city.'%');
   $q->execute();
-  $users = $q->fetchAll(PDO::FETCH_ASSOC);
-  echo json_encode($users);
+  $flights = $q->fetchAll(PDO::FETCH_ASSOC);
+  echo json_encode($flights);
+}catch(Exception $ex){
+  // echo $ex;
+  http_response_code(400);
+  echo json_encode(['info'=>'upppsss...']);
 }
-catch(Exception $ex){
-  echo $ex;
-} 
+
+// $cities = [
+//   ['city_name'=>'Copenhagen', 'city_image'=>'copenhagen.jpg', 'city_population'=>'2000000'],
+//   ['city_name'=>'Oslo', 'city_image'=>'oslo.jpg', 'city_population'=>'1000000'],
+//   ['city_name'=>'Miami', 'city_image'=>'miami.jpg', 'city_population'=>'4000000']
+// ];
+// echo json_encode($cities);
