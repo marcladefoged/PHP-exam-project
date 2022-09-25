@@ -22,8 +22,8 @@ function show_cities_from(){
     let div_city = `
                       <div class="from-city">
                       <img src="#img#">
-                      <p>Airport: #airport#</p>
                       <p>Country: #country#</p>
+                      <p>Airport: #airport#</p>
                     </div>`    
     let all_cities = ""
 
@@ -33,8 +33,9 @@ function show_cities_from(){
       console.log(city_name)
       let copy_div_city = div_city
       copy_div_city = copy_div_city.replace("#img#", 'images/'+city.city_image)
-      copy_div_city = copy_div_city.replace("#airport#", city.city_airport)
       copy_div_city = copy_div_city.replace("#country#", city.city_country)
+      copy_div_city = copy_div_city.replace("#airport#", city.city_airport)
+
       all_cities += copy_div_city
     }               
     console.log(data)
@@ -47,7 +48,7 @@ function show_cities_from(){
     const the_input = document.querySelector('#to-input')
     if( the_input.value.length > 0 ){
       document.querySelector("#to-results").style.display = "block"
-      get_flights_to()
+      get_cities_to()
     }else{
       document.querySelector("#to-results").style.display = "none"
     }
@@ -58,32 +59,29 @@ function show_cities_from(){
   }
   
   async function get_cities_to(){
-    let conn = await fetch('api-get-flights-to.php')
-    let data = await conn.json()
-    let div_city = `<div class="to-city">
-                    <img src="#img#">
-                    <p>xxx</p>
-                    <p>Population: #population#</p>
-                    </div>`
+    let to_input = document.querySelector('#to-input').value;
+    let conn = await fetch("api-get-cities-to.php?to_city="+to_input)
+    let data = await conn.json() 
+    let div_city = `
+                      <div class="to-city">
+                      <img src="#img#">
+                      <p>Country: #country#</p>
+                      <p>Airport: #airport#</p>
+                    </div>`    
     let all_cities = ""
-    
-    for( let i = 0; i < data.length; i++){
-    let city = data[i]
-    let city_name = city.city_name
-    // console.log(city_name)
-    let copy_div_city = div_city
-    copy_div_city = copy_div_city.replace("#img#", city.city_image)
-    copy_div_city = copy_div_city.replace("xxx", city_name)
-    // copy_div_city = copy_div_city.replace("xxx", city_airport)
-    copy_div_city = copy_div_city.replace("#population#", city.city_population)
-    
-    all_cities += copy_div_city
-    }
-  
-  // console.log(data)
-//   document.querySelector("#to-results").insertAdjacentHTML("afterbegin", all_cities)
 
-  document.querySelector("#to-results").innerHTML = all_cities;
+    for( let i = 0; i < data.length; i++ ){
+      let city = data[i]
+      let city_name = city.city_name
+      console.log(city_name)
+      let copy_div_city = div_city
+      copy_div_city = copy_div_city.replace("#img#", 'images/'+city.city_image)
+      copy_div_city = copy_div_city.replace("#country#", city.city_country)
+      copy_div_city = copy_div_city.replace("#airport#", city.city_airport)
+      all_cities += copy_div_city
+    }               
+    console.log(data)
+    document.querySelector("#to-results").insertAdjacentHTML("afterbegin", all_cities)
   }
 
   // SIGNUP WINDOW

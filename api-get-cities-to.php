@@ -1,14 +1,17 @@
 <?php
 
 try{
-  // $from_city = $_GET['from_city']
+  $to_city = $_GET['to_city'] ?? 0;
+  // Connect to the database
   $db = new PDO('sqlite:'.__DIR__.'/momondo.db');
-  $q = $db->prepare('SELECT * TO flights WHERE to_city_name LIKE :to_city');
-  $q->bindValue(':to_city', '%'.$_GET['to_city'].'%');
+  $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+  $q = $db->prepare('SELECT * FROM table_cities WHERE city_name LIKE :to_city');
+  $q->bindValue(':to_city', '%'.$to_city.'%');
   $q->execute();
-  $users = $q->fetchAll(PDO::FETCH_ASSOC);
-  echo json_encode($users);
+  $flights = $q->fetchAll(PDO::FETCH_ASSOC);
+  echo json_encode($flights);
+}catch(Exception $ex){
+  // echo $ex;
+  http_response_code(400);
+  echo json_encode(['info'=>'upppsss...']);
 }
-catch(Exception $ex){
-  echo 'error';
-} 
