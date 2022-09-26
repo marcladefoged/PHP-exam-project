@@ -54,6 +54,8 @@ try{
         <img src="/img/copenhagen.jpg" alt="">
     </div>
 
+    <div id="admin_flightlist_container">
+
     <?php
     foreach($flights as $flight){
     ?>
@@ -91,6 +93,8 @@ try{
     <?php
     }
     ?>
+
+</div>
 
 
 </main>

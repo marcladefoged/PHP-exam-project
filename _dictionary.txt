@@ -1,0 +1,4 @@
+{
+    "dk_index_title":"Velkommen til Momondo!",
+    "en_index_title":"Welcome to Momondo!
+}

@@ -167,6 +167,12 @@ footer {
   padding: 5rem;
 }
 
+footer h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
 /*FLIGHT FORM STYLING*/
 #flights-search form {
   display: flex;
@@ -232,6 +238,7 @@ div#flights-search div#to-container div#to-results {
   background: white;
   border-radius: 1rem;
   margin-top: 1.5rem;
+  overflow: scroll;
 }
 
 div.to-city {
@@ -564,6 +571,13 @@ div.desc {
   justify-content: center;
 }
 
+#admin_flightlist_container {
+  height: 50rem;
+  
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
 #admin_flight {
   display: flex;
   justify-content: space-evenly; 
@@ -630,4 +644,9 @@ margin: 15px 30%;
   width: 40rem;
   margin: 40px auto;
   line-height: 30px;
+}
+
+#from-results p, #to-results p {
+margin-left: 10px;
+font-weight: bolder;
 }
