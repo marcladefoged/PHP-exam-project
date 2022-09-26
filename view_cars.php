@@ -10,35 +10,45 @@ require_once __DIR__.'/comp_navbar.php';
 <main>
 <div id="cars_section">
     <div id="cars_title">
-        <h2>Derfor vælger rejsende Momondo</h2>
+        <h2>
+        <?= $cars_dictionary[$lang.'_cars_title']; ?>
+        </h2>
     </div>
     <div id="cars_reasons">
         <div class="cars_reason">
             <h3>
-                de billigste lejebiler
+            <?= $cars_dictionary[$lang.'_cars_box1_headline']; ?>
             </h3>
-            <p>Se tilbud fra udlejniongsfirmaer på over 70.000 forskellige steder.</p>
+            <p>
+            <?= $cars_dictionary[$lang.'_cars_box1_text']; ?>
+            </p>
         </div>
 
         <div class="cars_reason">
             <h3>
-                Prisgennemsigtighed
+            <?= $cars_dictionary[$lang.'_cars_box2_headline']; ?>
             </h3>
-            <p>Se den samlede pris fra starten, så der ikke er nogen overraskelser.</p>
+            <p>
+            <?= $cars_dictionary[$lang.'_cars_box2_text']; ?>
+            </p>
         </div>
 
         <div class="cars_reason">
             <h3>
-                Book med fleksibilitet
+            <?= $cars_dictionary[$lang.'_cars_box3_headline']; ?>
             </h3>
-            <p>Find lejebiler med gratis afbestilling og øget rengøring.</p>
+            <p>
+            <?= $cars_dictionary[$lang.'_cars_box3_text']; ?>
+            </p>
         </div>
 
         <div class="cars_reason">
             <h3>
-                Miljøvenlige muligheder
+            <?= $cars_dictionary[$lang.'_cars_box4_headline']; ?>
             </h3>
-            <p>filtrer din søgning for nemt at se hybrid- og elbiler</p>
+            <p>
+            <?= $cars_dictionary[$lang.'_cars_box4_text']; ?> 
+            </p>
         </div>
     </div>
 
@@ -48,9 +58,15 @@ require_once __DIR__.'/comp_navbar.php';
 
     <div id="cars_cta">
         <div>
-        <h3>Billige lejebiler sorteret efter destination</h3>
-        <p>Find og sammenlign de bedste tilbud på udlejningsbiler</p>
-        <p>Vi søger på over 30.000 steder og medtager større sites til sammenligning af billeje, så du et enormt udvalg af billige udlejningspriser fra hele verden.</p>
+        <h3>
+        <?= $cars_dictionary[$lang.'_cars_cheapcars']; ?> 
+        </h3>
+        <p>
+        <?= $cars_dictionary[$lang.'_cars_find']; ?> 
+        </p>
+        <p>
+        <?= $cars_dictionary[$lang.'_cars_search']; ?> 
+        </p>
         </div>
     </div>
 </div>

@@ -9,7 +9,7 @@ require_once __DIR__.'/comp_navbar.php';
 
 <main>
 <div id="page_title">
-    <h2>Del dine oplevelser!</h2>
+    <h2><?= $experiences_dictionary[$lang.'_experiences_headline']; ?></h2>
 </div>
 
 <div id="explore_imageupload">
@@ -23,7 +23,7 @@ require_once __DIR__.'/comp_navbar.php';
 
 <div id="explore_cta">
     <h3>
-        Vis os dine oplevelser ved at dele dine billeder og minder fra tidligere rejser her!
+    <?= $experiences_dictionary[$lang.'_experiences_memories']; ?>
     </h3>
 </div>
 
@@ -31,17 +31,17 @@ require_once __DIR__.'/comp_navbar.php';
 
 <div class="image_upload_gallery">
     <img src="632af063c9a0d" alt="Copenhagen" width="600" height="400"> 
-  <div class="desc">Her besøger jeg Nyhavn i København!</div>
+  <div class="desc"><?= $experiences_dictionary[$lang.'_experiences_box1']; ?></div>
 </div>
 
 <div class="image_upload_gallery">
-    <img src="632af063c9a0d" alt="Copenhagen" width="600" height="400"> 
-  <div class="desc">Her besøger jeg Nyhavn i København!</div>
+    <img src="6332011761d37" alt="Barcelona" width="600" height="400"> 
+  <div class="desc"><?= $experiences_dictionary[$lang.'_experiences_box2']; ?></div>
 </div>
 
 <div class="image_upload_gallery">
-    <img src="632af063c9a0d" alt="Copenhagen" width="600" height="400"> 
-  <div class="desc">Her besøger jeg Nyhavn i København!</div>
+    <img src="63320179f317d" alt="Seoul" width="600" height="400"> 
+  <div class="desc"><?= $experiences_dictionary[$lang.'_experiences_box3']; ?></div>
 </div>
 
 </div>

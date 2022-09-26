@@ -10,7 +10,7 @@ require_once __DIR__.'/comp_navbar.php';
 <main>
 
 <div id="page_title">
-    <h2>Udforsk dine muligheder</h2>
+    <h2><?= $explore_dictionary[$lang.'_explore_headline']; ?></h2>
 </div>
 
 <div id="explore_card_container">
@@ -20,7 +20,7 @@ require_once __DIR__.'/comp_navbar.php';
       </div>
       <div class="explore_card_text">
       <h1>Aberdeen</h1>
-      <p>Description</p>
+      <p><?= $explore_dictionary[$lang.'_explore_aberdeen']; ?> </p>
       </div>
     </div>
 
@@ -30,7 +30,9 @@ require_once __DIR__.'/comp_navbar.php';
     </div>
       <div class="explore_card_text">
       <h1>Barcelona</h1>
-      <p>Description</p>
+      <p>
+      <?= $explore_dictionary[$lang.'_explore_barcelona']; ?>
+      </p>
       </div>
     </div>
 
@@ -40,7 +42,7 @@ require_once __DIR__.'/comp_navbar.php';
     </div>
       <div class="explore_card_text">
       <h1>Dortmund</h1>
-      <p>Description</p>
+      <p><?= $explore_dictionary[$lang.'_explore_dortmund']; ?></p>
       </div>
     </div>
 
@@ -50,7 +52,9 @@ require_once __DIR__.'/comp_navbar.php';
     </div>
       <div class="explore_card_text">
       <h1>Hamilton</h1>
-      <p>Description</p>
+      <p>
+      <?= $explore_dictionary[$lang.'_explore_hamilton']; ?>
+      </p>
       </div>
     </div>
 
@@ -60,7 +64,9 @@ require_once __DIR__.'/comp_navbar.php';
     </div>
       <div class="explore_card_text">
       <h1>Paris</h1>
-      <p>Description</p>
+      <p>
+      <?= $explore_dictionary[$lang.'_explore_paris']; ?>  
+      </p>
       </div>
     </div>
 
@@ -69,8 +75,12 @@ require_once __DIR__.'/comp_navbar.php';
       <img src="images/phuket.jpg" alt="phuket">
     </div>
       <div class="explore_card_text">
-      <h1>Phuket</h1>
-      <p>Description</p>
+      <h1>
+        Phuket
+      </h1>
+      <p>
+      <?= $explore_dictionary[$lang.'_explore_aberdeen']; ?>
+      </p>
       </div>
     </div>
 

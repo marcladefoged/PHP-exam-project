@@ -11,7 +11,7 @@ require_once __DIR__.'/comp_navbar.php';
 <main>
 <div id="ferries_section">
     <div id="ferries_title">
-        <h2>Find billige færgebilletter i hele verden.</h2>
+        <h2><?= $ferries_dictionary[$lang.'_ferries_headline']; ?></h2>
     </div>
 
     <div id="ferries_splashimage">
@@ -20,13 +20,12 @@ require_once __DIR__.'/comp_navbar.php';
 
     <div id="ferries_travel">
         <div>
-        <h3>Rejs til et nyt sted med færge</h3>
-        <p>Selvfølgelig ville du kunne komme dertil på ingen tid med fly, mens kan du nyde
-            udsigten og den friske havluft undervejs? Se disse europæiske færgeruter, du sandsynligvis
-            ikke har prøvet.
+        <h3><?= $ferries_dictionary[$lang.'_ferries_box_headline']; ?></h3>
+        <p>
+        <?= $ferries_dictionary[$lang.'_ferries_box_text']; ?>
         </p>
         <a href="https://www.momondo.dk/discover/bedste-faergeruter-danmark-europa">
-        <button id="ferries_button">Rejse med færge</button>
+        <button id="ferries_button"><?= $ferries_dictionary[$lang.'_ferries_box_button']; ?></button>
         </a>
         </div>
     </div>
