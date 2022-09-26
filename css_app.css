@@ -475,7 +475,10 @@ div.image_upload_gallery {
   margin: 5px;
   border: 1px solid #ccc;
   width: 180px;
+  height: 6rem;
+  margin-right: 2rem;
 }
+
 
 div.image_upload_gallery:hover {
   border: 1px solid #777;
@@ -483,7 +486,7 @@ div.image_upload_gallery:hover {
 
 div.image_upload_gallery img {
   width: 100%;
-  height: auto;
+  height: 10rem;
 }
 
 div.desc {
