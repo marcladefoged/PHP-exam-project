@@ -1,6 +1,7 @@
 <?php
 $title ='flights';
 require_once __DIR__.'/comp_header.php';
+require_once __DIR__.'/_dictionary.php';
 ?>
 
 <?php
@@ -25,7 +26,7 @@ try{
 
 <div id="index_title">
   <h1>
-    Velkommen til Momondo!
+   <?= $dictionary[$lang.'_index_title']; ?>
   </h1>
 </div>
 <div id="flights-search">
@@ -37,7 +38,7 @@ try{
         >
      
         <div id="from-results">
-          <span>
+          <span >
           <?= $flight['from_city'] ?>
           </span>
         </div>
@@ -54,6 +55,10 @@ try{
         >
      
         <div id="to-results"></div>
+
+        <div id="date-container">
+          <input type="date" placeholder="Select date">
+        </div>
         
       </div>
     </form>

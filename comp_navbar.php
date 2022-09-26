@@ -1,3 +1,8 @@
+<?php
+require_once __DIR__.'/_dictionary.php';
+require_once __DIR__.'/comp_header.php';
+?>
+
 <nav>
 
 <ul>
@@ -10,35 +15,35 @@
     </span>
     </a>         
      -->
-    <a href="view_index.php" <?= $title == 'flights' ? 'class="active"' : '' ?>>
+    <a href="/index" <?= $title == 'flights' ? 'class="active"' : '' ?>>
      <ion-icon class="navicon" name="airplane-outline"></ion-icon>
      <span>
      Fly
     </span>
     </a>        
-    
-     <a href="view_stays.php" <?= $title == 'stays' ? 'class="active"' : '' ?>>
+
+     <a href="/stays?lang="<?= $lang ?> <?= $title == 'stays' ? 'class="active"' : '' ?>>
     <ion-icon class="navicon" name="bed-outline"></ion-icon>
     <span>
     Overnatning
     </span>   
     </a> 
     
-    <a href="view_cars.php" <?= $title == 'cars' ? 'class="active"' : '' ?>>
+    <a href="/cars" <?= $title == 'cars' ? 'class="active"' : '' ?>>
     <ion-icon class="navicon" name="car-sport-outline"></ion-icon>
     <span>
     Bil
     </span>
     </a>  
     
-    <a href="view_ferries.php" <?= $title == 'ferries' ? 'class="active"' : '' ?>>
+    <a href="/ferries" <?= $title == 'ferries' ? 'class="active"' : '' ?>>
     <ion-icon class="navicon" name="boat-outline"></ion-icon>
     <span>
     Færger
     </span>
     </a>  
     
-    <a href="view_experiences.php" <?= $title == 'experiences' ? 'class="active"' : '' ?>>
+    <a href="/experiences" <?= $title == 'experiences' ? 'class="active"' : '' ?>>
     <ion-icon class="navicon" name="trail-sign-outline"></ion-icon>
     <span>
     Oplevelser
@@ -52,14 +57,14 @@
     </span>
     </a> -->
     
-    <a href="view_explore.php" <?= $title == 'explore' ? 'class="active"' : '' ?>>
+    <a href="/explore" <?= $title == 'explore' ? 'class="active"' : '' ?>>
     <ion-icon class="navicon" name="globe-outline"></ion-icon>
     <span>
     Udforsk
      </span>
     </a>
     
-    <a href="view_restrictions.php" <?= $title == 'restrictions' ? 'class="active"' : '' ?>>
+    <a href="/restrictions" <?= $title == 'restrictions' ? 'class="active"' : '' ?>>
     <ion-icon class="navicon" name="heart-circle-outline"></ion-icon>
     <span>
     Rejserestriktioner

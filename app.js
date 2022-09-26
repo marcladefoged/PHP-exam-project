@@ -104,6 +104,15 @@ function show_cities_from(){
     document.querySelector(".login_popup").style.display = "none";
   }
 
+  // function select_city(){
+  //   const city_name = event.target.querySelector(".city_name").innerText
+  //   console.log(city_name)
+  //   document.querySelector("#from_city").value = city_name
+  //   document.querySelector("#from_results").style.display = "none"
+  //   // document.querySelector("#from_results").classList.add('hide')
+  //   document.querySelector("#from_results").innerHTML = ""
+  // }
+
   // EXPLORE IMAGE UPLOAD
 
   function upload_image() {

@@ -10,7 +10,7 @@ require_once __DIR__.'/comp_navbar.php';
 <div id="frontpage">
     <div id="frontpage_cta">
         <h2>
-            Book en overnatning med gratis afbestilling - søg nu.
+        <?= $dictionary[$lang.'_stays_title']; ?>
         </h2>
     </div>
 <!-- 

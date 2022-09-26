@@ -1,15 +1,16 @@
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.php [NC,L]
+# RewriteRule ^([^\.]+)$ $1.php [NC,L]
 
-
-RewriteRule ^$                            view_index.php [NC,L]
+RewriteRule ^$                       view_index.php [NC,L]
+RewriteRule ^index$                       view_index.php [NC,L]
 RewriteRule ^login$                       view_login.php [NC,L]
+RewriteRule ^signup$                      view_signup.php [NC,L]
 RewriteRule ^cars$                        view_cars.php [NC,L]
 RewriteRule ^experiences$                 view_experiences.php [NC,L]
 RewriteRule ^explore$                     view_explore.php [NC,L]
 RewriteRule ^ferries$                     view_ferries.php [NC,L]
-# RewriteRule ^flights$                     view_flights.php [NC,L]
+
 RewriteRule ^packagedeals$                view_packagedeals.php [NC,L]
 RewriteRule ^restrictions$                view_restrictions.php [NC,L]
 RewriteRule ^stays$                       view_stays.php [NC,L]

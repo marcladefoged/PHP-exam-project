@@ -1,3 +1,11 @@
+<?php
+require_once __DIR__.'/_dictionary.php';
+session_start();
+if(!isset($_GET['lang'])){$_SESSION['lang'] = "en";};
+if(isset($_GET['lang'])){$_SESSION['lang'] = $_GET['lang'];};
+
+$lang = $_SESSION['lang'];
+?>
 
     <!DOCTYPE html>
 <html lang="en">
@@ -14,7 +22,7 @@
 <header>
 
     <div>
-      <a href="view_index.php">
+      <a href="index">
         <img src="logo.png" class="logo" alt="momondo.png">
       </a>
     </div>
@@ -26,9 +34,15 @@
     </div> -->
 
     <div id="header_menu">
-      <a href="view_signup.php">Sign up</a>
-      <a href="view_login.php">Log ind</a> 
-      <a href="danish">Dansk</a>
+      <a href="/signup">Sign up</a>
+      <a href="/login">Log ind</a> 
+        <div class="dropdown">
+        <button class="dropbtn">Select language: <p><?= $flag_dictionary[$lang.'_flag'] ?></p></button>
+          <div class="dropdown-content">
+          <a id="lang-dk" href="index?lang=dk">Dansk &#127465&#127472</a>
+          <a id="lang-eng" href="index?lang=en">English 🇬🇧</a>
+          </div>
+        </div>
     </div>
 
 </header>
