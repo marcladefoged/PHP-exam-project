@@ -1,6 +1,6 @@
 <?php
 require_once __DIR__.'/_dictionary.php';
-session_start();
+// session_start();
 if(!isset($_GET['lang'])){$_SESSION['lang'] = "en";};
 if(isset($_GET['lang'])){$_SESSION['lang'] = $_GET['lang'];};
 
@@ -34,8 +34,8 @@ $lang = $_SESSION['lang'];
     </div> -->
 
     <div id="header_menu">
-      <a href="/signup">Sign up</a>
-      <a href="/login">Log ind</a> 
+      <a href="/signup"><?= $dictionary[$lang.'_signup']; ?></a>
+      <a href="/login"><?= $dictionary[$lang.'_login']; ?></a> 
         <div class="dropdown">
         <button class="dropbtn">Select language: <p><?= $flag_dictionary[$lang.'_flag'] ?></p></button>
           <div class="dropdown-content">

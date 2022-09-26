@@ -57,6 +57,7 @@ header {
   padding: 16px;
   font-size: 16px;
   border: none;
+  border-radius: 10px;
 }
 
 .dropdown {
@@ -71,6 +72,7 @@ header {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  border-radius: 10px;
 }
 
 .dropdown-content a {
@@ -82,6 +84,7 @@ header {
 
 .dropdown-content a:hover {
   background-color: #ddd;
+  border-radius: 10px;
 }
 
 .dropdown:hover .dropdown-content {
@@ -116,6 +119,7 @@ header {
 
 #frontpage_cta {
   margin-top: 5rem;
+  font-size: 1.5rem;
 }
 
 #frontpage_search input {
@@ -691,8 +695,20 @@ margin-left: 10px;
 font-weight: bolder;
 }
 
-#date-container {
-  /* display: flex;
-  justify-content: center;
-  flex-direction: column; */
+#stays_content {
+  text-align: center;
+  width: 50rem;
+  margin: 20px auto;
+  padding: 2rem;
 }
+
+#stays_content p {
+  margin-top: 40px;
+}
+
+#stays_content img {
+  margin-top: 2rem;
+  position: absolute;
+  left: 20%;
+}
+

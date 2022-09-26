@@ -32,7 +32,7 @@ try{
 <div id="flights-search">
     <form>
       <div id="from-container">
-        <input name="from_city" id="from-input" type="text" placeholder="Departing from"           
+        <input name="from_city" id="from-input" type="text" placeholder="<?= $dictionary[$lang.'_search_from']; ?>"           
           oninput="show_cities_from()"
           onblur="hide_cities_from()"
         >
@@ -49,16 +49,16 @@ try{
         </div>
 
       <div id="to-container">
-        <input name="to_city" id="to-input" type="text" placeholder="Arriving to"           
+        <input name="to_city" id="to-input" type="text" placeholder="<?= $dictionary[$lang.'_search_to']; ?>"           
           oninput="show_cities_to()"
           onblur="hide_cities_to()"
         >
      
         <div id="to-results"></div>
 
-        <div id="date-container">
+        <!-- <div id="date-container">
           <input type="date" placeholder="Select date">
-        </div>
+        </div> -->
         
       </div>
     </form>
