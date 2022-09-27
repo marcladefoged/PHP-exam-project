@@ -46,7 +46,44 @@ $dictionary=[
   'en_signup'=>'Signup',
   'dk_signup'=>'Tilmeld',
   'en_login'=>'Log in',
-  'dk_login'=>'Log ind'
+  'dk_login'=>'Log ind',
+  'dk_admin_headline'=>'Du er nu logget ind!',
+  'en_admin_headline'=>'You are now logged in!',
+  'dk_admin_welcome'=>'Velkommen',
+  'en_admin_welcome'=>'Welcome',
+  'dk_admin_departure'=>'Afgangs by',
+  'en_admin_departure'=>'Departure city',
+  'dk_admin_arrival'=>'Ankomst by',
+  'en_admin_arrival'=>'Arrival city',
+  'dk_admin_delete'=>'Slet',
+  'en_admin_delete'=>'Delete',
+  'dk_admin_airport'=>'Lufthavn',
+  'en_admin_airport'=>'Airport',
+  'dk_admin_departure_date'=>'Afgangsdato',
+  'en_admin_departure_date'=>'Departure date',
+  'dk_admin_departure_time'=>'Afgangstid',
+  'en_admin_departure_time'=>'Departure time',
+  'dk_admin_arrival_date'=>'Ankomstdato',
+  'en_admin_arrival_date'=>'Arrival date',
+  'dk_admin_arrival_time'=>'Ankomsttid',
+  'en_admin_arrival_time'=>'Arrival time',
+  'dk_language'=>'Vælg sprog',
+  'en_language'=>'Select language',
+  'dk_signup_headline'=>'Opret dig her!',
+  'en_signup_headline'=>'Sign up here!',
+  'dk_signup_benefits'=>'Her kan du oprette dig og få del af Momondos mange fordele!',
+  'en_signup_benefits'=>'Sign up here and get access to all the benefits Momondo has to offer!',
+  'dk_login_member'=>'Følg priser, organiser rejseplaner, og få adgang til medlemstilbud med din momondo-konto.',
+  'en_login_member'=>'Track prices, organise travel plans and access member-only deals with your momondo account.',
+  'dk_signup_headline2'=>'Eller opret dig her!',
+  'en_signup_headline2'=>'Or sign up here!',
+  'dk_login_notamember'=>'Hvis du ikke allerede har oprettet dig hos Momondo, kan du gøre det her!',
+  'en_login_notamember'=>'If you are not already signed up, you can do that right here!',
+  
+
+  
+
+
 
 ];
 

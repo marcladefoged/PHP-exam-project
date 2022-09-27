@@ -4,7 +4,7 @@ function validate(callback){
     const validate_error = "rgba(240, 130, 240, 0.2)"
     document.querySelectorAll("[data-validate]",form).forEach(function(element){ 
       element.classList.remove("validate_error")
-      element.style.backgroundColor = "white"
+      // element.style.backgroundColor = "white"
     })
     document.querySelectorAll("[data-validate]",form).forEach( function(element){
       switch(element.getAttribute("data-validate")){
@@ -14,6 +14,7 @@ function validate(callback){
           ){
             element.classList.add("validate_error")
             element.style.backgroundColor = validate_error
+            element.style.border = '2px solid red'
           }
         break;
         case "int":
@@ -23,6 +24,7 @@ function validate(callback){
           ){
             element.classList.add("validate_error")
             element.style.backgroundColor = validate_error
+            element.style.border = '2px solid red'
           }
         break;      
         case "email":
@@ -30,6 +32,7 @@ function validate(callback){
           if( ! re.test(element.value.toLowerCase()) ){
             element.classList.add("validate_error")
             element.style.backgroundColor = validate_error
+            element.style.border = '2px solid red'
           }
         break;
         case "regex":       
@@ -40,12 +43,14 @@ function validate(callback){
             console.log("regex error")
             element.classList.add("validate_error")
             element.style.backgroundColor = validate_error
+            element.style.border = '2px solid red'
           }
         break;
         case "match":
           if( element.value != document.querySelector(`[name='${element.getAttribute("data-match-name")}']`, form).value ){
             element.classList.add("validate_error")
             element.style.backgroundColor = validate_error
+            element.style.border = '2px solid red'
           }
         break;
       }

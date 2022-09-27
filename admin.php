@@ -38,20 +38,16 @@ try{
 <!-- TODO: if user is logged then display user information and flights that can be deleted -->
 <main>
     <div id="admin_title">
-        <h1>Velkommen <?= $_SESSION['user_name'] ?></h1>
-        <p>Du er nu logget ind!</p>
+        <h1><?= $dictionary[$lang.'_admin_welcome']; ?> <?= $_SESSION['user_name'] ?></h1>
+        <p><?= $dictionary[$lang.'_admin_headline']; ?></p>
     </div>
 
     <div id="logout_button">
     <?php
     if( $_SESSION ){
-      echo '<a href="logout.php">logout</a>';
+      echo '<a href="bridge-logout.php">logout</a>';
     }
     ?>
-    </div>
-
-    <div>
-        <img src="/img/copenhagen.jpg" alt="">
     </div>
 
     <div id="admin_flightlist_container">
@@ -64,27 +60,26 @@ try{
 
     
       <div id="admin_flight">
-        <img src="/images/<?= $flight['departure_city'] ?>.jpg" alt="departure image" width="100px" height="100px">
-        <span>
-          Departure city: <?= $flight['departure_city'] ?>
+        <!-- <img src="/images/<?= $flight['departure_city'] ?>.jpg" alt="departure image" width="100px" height="100px">
+        <span> -->
+        <div id="admin_flight_departure">
+        <?= $dictionary[$lang.'_admin_departure']; ?>: <?= $flight['departure_city'] ?>
+        <?= $dictionary[$lang.'_admin_airport']; ?>: <?= $flight['departure_airport'] ?>
+        <?= $dictionary[$lang.'_admin_departure_date']; ?>: <?= $flight['departure_date'] ?>
+        <?= $dictionary[$lang.'_admin_departure_time']; ?>: <?= $flight['departure_time'] ?>
+        </div>
         </span>
         <span>
-          Arrival city: <?= $flight['arrival_city'] ?>
+        <div id="admin_flight_arrival">
+        <?= $dictionary[$lang.'_admin_arrival']; ?>: <?= $flight['arrival_city'] ?>
+        <?= $dictionary[$lang.'_admin_airport']; ?>: <?= $flight['arrival_airport'] ?>
+        <?= $dictionary[$lang.'_admin_arrival_date']; ?>: <?= $flight['return_date'] ?>
+        <?= $dictionary[$lang.'_admin_arrival_time']; ?>: <?= $flight['return_time'] ?>
+        </div>
         </span>
-          <!-- <input style="display:none" 
-          name="flight_id" 
-          value="<?= $flight['id'] ?>" 
-          type="text"
-          > -->
-
-          <!-- <input style="display:none" 
-          name="flight_id" 
-          value="<?= $flight['id'] ?>" 
-          type="text"
-          placeholder="Arriving to"> -->
-          <img src="/images/<?= $flight['arrival_city'] ?>.jpg" alt="arrival image" width="100px" height="100px">
+          <!-- <img src="/images/<?= $flight['arrival_city'] ?>.jpg" alt="arrival image" width="100px" height="100px"> -->
           <button type="button" onclick="delete_flight()">
-            🗑️ Delete
+            🗑️ <?= $dictionary[$lang.'_admin_delete']; ?>
           </button>
         </div>
 
@@ -105,13 +100,13 @@ require_once __DIR__.'/comp_footer.php';
 
 <script>
         async function delete_flight(){
-      const frm = event.target.form
-      console.log(frm)
-      const conn = await fetch('api-delete-flight.php', {
+      const flight = event.target.form;
+      // console.log(flight)
+      const conn = await fetch("api-delete-flight.php", {
         method : "POST",
-        body : new FormData(frm)
+        body : new FormData(flight)
       })
-      const data = await conn.json()
+      const data = await conn.text()
       if( ! conn.ok ){
         // Sweet alert: ups... fligth not found
         console.log(data)
@@ -119,7 +114,7 @@ require_once __DIR__.'/comp_footer.php';
       }
       // Success
       console.log(data)
-      frm.remove()
+      flight.remove()
     }
 </script>
 

@@ -630,6 +630,7 @@ div.desc {
 }
 
 #admin_flight {
+  background: rgb(0,149,204);
   display: flex;
   justify-content: space-evenly; 
   align-items: center;
@@ -721,3 +722,18 @@ font-weight: bolder;
   left: 20%;
 }
 
+#admin_flight_departure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
+  font-weight: bolder;
+}
+
+#admin_flight_arrival {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12rem;
+  font-weight: bolder;
+}

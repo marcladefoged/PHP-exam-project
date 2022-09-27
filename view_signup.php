@@ -12,8 +12,8 @@ require_once __DIR__.'/comp_navbar.php';
 
     <div id="signup_title">
         <div>
-            <h2>Opret dig her!</h2>
-            <p>Her kan du oprette dig og få del af Momondos mange fordele!</p>
+            <h2><?= $dictionary[$lang.'_signup_headline']; ?></h2>
+            <p><?= $dictionary[$lang.'_signup_benefits']; ?></p>
         </div>
     </div>
 

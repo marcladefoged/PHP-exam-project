@@ -17,6 +17,9 @@ require_once __DIR__.'/comp_navbar.php';
 <form id="frmImage" onsubmit="return false">
     <input type="file" name="image" placeholder="Choose image">
     <button onclick="upload_image()">Upload Image</button>
+    <!-- Select image to upload:
+  <input type="file" name="fileToUpload" id="fileToUpload">
+  <input type="submit" value="Upload Image" name="submit"> -->
 </form>
 
 </div>

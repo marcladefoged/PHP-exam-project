@@ -12,21 +12,21 @@ require_once __DIR__.'/comp_navbar.php';
 
     <div id="login_title">
         <div>
-            <h2>Log ind!</h2>
-            <p>Følg priser, organiser rejseplaner, og få adgang til medlemstilbud med din momondo-konto.</p>
+            <h2><?= $dictionary[$lang.'_login']; ?>!</h2>
+            <p><?= $dictionary[$lang.'_login_member']; ?></p>
         </div>
     </div>
 
     <div id="login_button">
         <!-- <button> -->
-        <a href="#" onclick="show_login_popup()">Log ind!</a>
+        <a href="#" onclick="show_login_popup()"><?= $dictionary[$lang.'_login']; ?>!</a>
         <!-- </button> -->
     </div>
 
     <div id="signup_title">
         <div>
-            <h2>Eller opret dig her!</h2>
-            <p>Hvis du ikke allerede har oprettet dig hos Momondo, kan du gøre det her!</p>
+            <h2><?= $dictionary[$lang.'_signup_headline2']; ?></h2>
+            <p><?= $dictionary[$lang.'_login_notamember']; ?></p>
         </div>
     </div>
 
@@ -65,7 +65,7 @@ require_once __DIR__.'/comp_navbar.php';
 <script>
 
 async function login_validation() {
-    console.log('TEST123')
+    // console.log('TEST123')
     const loginform = document.getElementById("login_form");
     const conn = await fetch('api-login.php', {
       method : "POST",
