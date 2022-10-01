@@ -738,11 +738,17 @@ font-weight: bolder;
   font-weight: bolder;
 }
 
-#login_email_error p {
+#login_email_error {
   color: red;
+  display: block;
 }
 
 #frontpage_image img {
   width: 60rem;
   height: 100%;
+}
+
+.validate_error {
+  background-color: #ff726f;
+  border: 2px solid red;
 }

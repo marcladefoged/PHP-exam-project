@@ -13,8 +13,8 @@ function validate(callback){
               element.value.length > parseInt(element.getAttribute("data-max")) 
           ){
             element.classList.add("validate_error")
-            element.style.backgroundColor = validate_error
-            element.style.border = '2px solid red'
+            // element.style.backgroundColor = validate_error
+            // element.style.border = '2px solid red'
           }
         break;
         case "int":
@@ -23,16 +23,16 @@ function validate(callback){
               parseInt(element.value) > parseInt(element.getAttribute("data-max"))
           ){
             element.classList.add("validate_error")
-            element.style.backgroundColor = validate_error
-            element.style.border = '2px solid red'
+            // element.style.backgroundColor = validate_error
+            // element.style.border = '2px solid red'
           }
         break;      
         case "email":
           let re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
           if( ! re.test(element.value.toLowerCase()) ){
             element.classList.add("validate_error")
-            element.style.backgroundColor = validate_error
-            element.style.border = '2px solid red' 
+            // element.style.backgroundColor = validate_error
+            // element.style.border = '2px solid red' 
             
           }
         break;
@@ -43,15 +43,15 @@ function validate(callback){
             console.log(element.value)
             console.log("regex error")
             element.classList.add("validate_error")
-            element.style.backgroundColor = validate_error
-            element.style.border = '2px solid red'
+            // element.style.backgroundColor = validate_error
+            // element.style.border = '2px solid red'
           }
         break;
         case "match":
           if( element.value != document.querySelector(`[name='${element.getAttribute("data-match-name")}']`, form).value ){
             element.classList.add("validate_error")
-            element.style.backgroundColor = validate_error
-            element.style.border = '2px solid red'
+            // element.style.backgroundColor = validate_error
+            // element.style.border = '2px solid red'
           }
         break;
       }
