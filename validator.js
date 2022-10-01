@@ -32,7 +32,8 @@ function validate(callback){
           if( ! re.test(element.value.toLowerCase()) ){
             element.classList.add("validate_error")
             element.style.backgroundColor = validate_error
-            element.style.border = '2px solid red'
+            element.style.border = '2px solid red' 
+            
           }
         break;
         case "regex":       
@@ -61,6 +62,6 @@ function validate(callback){
   
   // ##############################
   function clear_validate_error(){
-    // event.target.classList.remove("validate_error")
-    // event.target.value = ""
+    event.target.classList.remove("validate_error")
+    event.target.value = ""
   }

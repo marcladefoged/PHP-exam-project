@@ -62,7 +62,11 @@ try{
         
       </div>
     </form>
-  </div>'
+  </div>
+
+  <div id=frontpage_image>
+    <img src="images/frontpageimage.jpg" alt="frontpage image">
+  </div>
   
 </main>
 

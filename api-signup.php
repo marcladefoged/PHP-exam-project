@@ -26,6 +26,14 @@ if( ! isset($_POST['user_email']) ) {
     exit();
 }
 
+$email_already_in_system = 'a@a.com';
+
+if( $email_already_in_system == $_POST['user_email'] ){
+  http_response_code(400);
+  echo json_encode(['info'=>'Email is already in use!']);
+  exit();
+}
+
 // VALIDATION OF USER_NAME
 if( ! isset($_POST['user_name']) ){
   http_response_code(400);
@@ -58,3 +66,16 @@ if( ! isset($_POST['user_confirm_password']) ) {
 }
 
 echo json_encode($user);
+
+
+
+
+
+
+
+
+
+
+
+
+

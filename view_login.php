@@ -49,6 +49,9 @@ require_once __DIR__.'/comp_navbar.php';
                 name="user_email" 
                 data-validate="email" 
                 placeholder="Email">
+                <span id="login_email_error">
+                    <p>Not a valid email</p>
+                </span>
                 <input 
                 type="text" 
                 name="user_password" 

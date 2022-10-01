@@ -236,7 +236,7 @@ margin-top: 10px;
 
 div#flights-search {
   width: 100vw;
-  height: 20rem;
+  height: 10rem;
   padding: 2rem 1rem;
   background: rgba(33, 3, 58, 0.5);
 }
@@ -534,7 +534,7 @@ div.desc {
   padding: 26px;
 }
 
-#cars_splashimage, #login_splashimage, #signup_splashigif {
+#cars_splashimage, #login_splashimage, #signup_splashigif, #frontpage_image {
   display: flex;
   justify-content: center;
   margin-top: 3rem;
@@ -736,4 +736,13 @@ font-weight: bolder;
   align-items: center;
   width: 12rem;
   font-weight: bolder;
+}
+
+#login_email_error p {
+  color: red;
+}
+
+#frontpage_image img {
+  width: 60rem;
+  height: 100%;
 }
