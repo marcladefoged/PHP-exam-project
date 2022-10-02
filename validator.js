@@ -54,6 +54,7 @@ function validate(callback){
             // element.style.border = '2px solid red'
           }
         break;
+        
       }
     })
     if( ! document.querySelector(".validate_error", form) ){ callback(); return }

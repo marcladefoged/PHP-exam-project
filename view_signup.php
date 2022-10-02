@@ -35,17 +35,24 @@ require_once __DIR__.'/comp_navbar.php';
     name="user_email" 
     placeholder="Email"
     data-validate="email"
+    onblur="validate_email()"
     >
+    <p style="color:red;"></p>
     <input
      type="text" 
      name="user_name" 
      placeholder="Username"
      data-validate="str"
+     data-min="2"
+     data-max="20"
      >
     <input
      type="text"
     name="user_password" 
     placeholder="Password"
+    data-validate="str"
+     data-min="2"
+     data-max="20"
     >
     <input 
     type="text" 
@@ -53,6 +60,7 @@ require_once __DIR__.'/comp_navbar.php';
     placeholder="Confirm password"
     data-match-name="user_password"
     data-validate="match"
+    
     >
     <button class="signup_button">Sign up!</button>
     </form>
@@ -86,6 +94,35 @@ async function signup_validation() {
         // window.location = 'view_index.php';
     // }
   }
+
+  async function validate_email() {
+    const email_input = event.target
+    const conn = await fetch('api-get-email.php?user_email='+email_input.value);
+    console.log(email_input);
+
+    if( ! conn.ok ) {
+      console.log('Email already exists!');
+      email_input.classList.add("validate_error");
+      display_error_message(email_input);
+    }
+    if( conn.ok ) {
+      console.log('Email is available!');
+      email_input.classList.remove("validate_error");
+      remove_error_message(email_input)
+    }
+  }
+
+  function display_error_message(input_field) {
+      let error_message = 'Email already exists!'
+      console.log(input_field.nextSibling);
+      input_field.nextElementSibling.innerHTML = error_message;
+  }
+
+  function remove_error_message(input_field) {
+      let error_message = ''
+      input_field.nextElementSibling.innerHTML = error_message;
+  }
+
 
 </script>
 

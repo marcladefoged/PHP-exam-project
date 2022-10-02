@@ -48,10 +48,10 @@ require_once __DIR__.'/comp_navbar.php';
                 type="text" 
                 name="user_email" 
                 data-validate="email" 
-                placeholder="Email">
-                <span id="login_email_error">
-                    <p>Not a valid email</p>
-                </span>
+                placeholder="Email"
+                onblur="validate_email()"
+                >
+
                 <input 
                 type="text" 
                 name="user_password" 
@@ -73,16 +73,44 @@ async function login_validation() {
     const conn = await fetch('api-login.php', {
       method : "POST",
       body : new FormData(loginform)
-    }); 
+    });
     if( !conn.ok ) {
       console.log('No login connection');
+      Swal.fire(
+        'Login failed!',
+        '',
+        'error'
+        )
+     loginform.user_email.classList.add("validate_error");
+     loginform.user_password.classList.add("validate_error");
     };
     if (conn.ok) {
       console.log('login connection successful')
       window.location = 'admin.php';
   }
 }
+
+async function validate_email() {
+    const email_input = event.target
+    const conn = await fetch('api-get-email.php?user_email='+email_input.value);
+    console.log(email_input);
+
+    if( ! conn.ok ) {
+        email_input.classList.remove("validate_error");
+    }
+    if( conn.ok ) {
+        email_input.classList.add("validate_error");
+    }
+  }
+
+  function display_error_message(input_field) {
+      let error_message = 'Email already exists!'
+      console.log(input_field.nextSibling);
+      input_field.nextElementSibling.innerHTML = error_message;
+  }
 </script>
+
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 <?php
 require_once __DIR__.'/comp_footer.php';
